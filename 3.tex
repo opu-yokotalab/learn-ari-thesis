@@ -1,0 +1,204 @@
+\section{問題の自動生成}
+\label{sec:jidosei}
+この章では\ref{sec:approach}節で述べた1つ目のアプローチの穴埋め問題の自動生成について述べる．
+
+\subsection{自動生成機構}
+
+\subsubsection{生成する問題}
+プログラミングの演習問題ではプログラムを一から記述させる記述問題，プログラムのあるまとまりを空欄にし
+その空欄部分を記述させる穴埋め問題，穴埋め問題の答えを複数の候補の中から選択する選択問題など
+複数のバリエーションがある．
+
+しかし，記述問題ではプログラムを一から作らせるため，学習初期の学習者にはハードルが高く学習意欲をそぐ可能性がある．
+さらに，プログラムを一から作らせるためプログラム設計が上手くできず
+問題作成者の意図した学習効果が得られない可能性がある．
+また，選択問題では複数の選択肢の中から答えを選ぶので適当に答えても正解になる可能性があり，
+ここでも意図した学習効果が得られないことがあると考えられる．
+そのため，今回はプログラムの一部分を穴にしてその部分のコードを書かせる穴埋め問題が有効であると考える．
+そこで，本論文では穴埋め問題を用いて学習を行うこととする．生成する問題例を図\ref{fig:mon_rei}に示す．
+\vspace{-1cm}
+\begin{figure}[h]
+\begin{center}
+\vspace{-5mm}
+\includegraphics[width=10cm,height=10cm]{image/mon_rei.eps}
+\vspace{-1cm}
+\caption{生成する問題例}
+\label{fig:mon_rei}
+\end{center}
+\vspace{-5mm}
+\end{figure}
+
+\subsubsection{問題生成の流れ}
+問題作成では図\ref{fig:mon_flow}で示す流れで自動的に演習問題の生成を行う．
+まず，問題作成者は問題にするためのソースコードを用意する．
+それに対して構文解析をを行い構文木に変換する．
+問題作成者は後述する問題作成意図を選択する．
+システムでは問題作成意図に対応した問題作成ルールに変換し，
+作成した構文木に問題作成ルールを適応することにより，
+自動的に問題を作成する．
+\begin{figure}[h]
+\begin{center}
+\vspace{-5mm}
+\includegraphics[width=9cm,height=7cm]{image/not_found.eps}
+\vspace{-5mm}
+\caption{問題生成の流れ}
+\label{fig:mon_flow}
+\end{center}
+\vspace{-5mm}
+\end{figure}
+
+\subsection{構文解析}
+\label{sec:koubun}
+C言語のソースコードを読み込み，構文解析を行い構文木を得る．
+構文解析した結果以下のような枝を持つ構文木を得る．
+
+
+\begin{table}[htdp]
+\vspace{-5mm}
+\begin{tabular}{|c|c|}
+\hline
+節の名前 & 部分木の内容 \\ \hline \hline
+DECLARATION & 宣言 \\ \hline
+TYPEDEF & 型宣言 \\ \hline
+TYPE & 型名 \\ \hline
+FUNC & 関数 \\ \hline
+GLOBAL & グローバル領域 \\ \hline
+%FNAME & 関数名 \\ \hline
+BLOCK & \{\}で囲まれた部分 \\ \hline
+STATEMENT & 文 \\ \hline
+%VARIABLE & 変数 \\ \hline
+EXPRESSION & 式 \\ \hline
+FORMAT & フォーマット指定子 \\ \hline
+ARGUMENTS & 引数群 \\ \hline
+ASSIGNMENT & 代入 \\ \hline
+LASSIGNMENT & 代入の左辺 \\ \hline
+RASSIGNMENT & 代入の右辺 \\ \hline
+%LVALUE & 左辺値 \\ \hline
+RVALUE & 右辺値 \\ \hline
+FOR,DO,WHILE,IF,SWITCH & 各構文 \\ \hline
+ARRAY & 配列 \\ \hline
+STRUCT & 構造体 \\ \hline
+MEMBER & 構造体のメンバ \\ \hline
+NONE & 式の省略 \\ \hline
+\end{tabular}
+\caption{構文解析木の節}
+\label{tab:branch}
+\end{table}
+
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=15cm,height=15cm]{image/kaiseki_rei.eps}
+\vspace{-2mm}
+\caption{プログラムの解析例}
+\label{fig:kaiseki_rei}
+\end{center}
+\vspace{-5mm}
+\end{figure}
+
+\subsection{問題作成意図}
+\label{sec:ito}
+問題作成意図とは，問題作成者が「こんな目的で問題を作りたい」と考えている内容であり，
+ある学習目標に対し，「正解できれば，これが理解できている」という指針になるものである．
+この問題作成意図は，満たしたい学習目標ごとに様々なものがある．
+
+例えば，構文について学習させたい時，問題作成意図としては「出力文が分かっているのか確認したい」，
+「for文の引数が分かっているのか確認したい」，「処理の流れが分かっているのか確認したい」
+等さまざまな問題作成意図があげられる．
+
+今回はプログラミングの学習初期の内容についての考えられる学習意図について述べる．
+表\ref{tab:ito}は問題作成意図の例である．
+
+\begin{center}
+\begin{table}[t]
+\begin{tabular}{|c|}
+\hline
+入力関数の引数が分かっているか \\ \hline
+制御構文の引数が分かっているか \\ \hline
+出力関数の引数が分かっているか \\ \hline
+関数を使うのに必要なヘッダが分かっているか \\ \hline
+必要となる引数が分かっているのか \\ \hline
+所定の演算子が使えるか \\ \hline
+処理の流れを理解しているか \\ \hline
+配列の定義のしかたが分かっているのか \\ \hline
+フォーマット指定子が分かっているか \\ \hline
+演算子の使い方が分かっているか \\ \hline
+どこでどの変数を持ちいらなければならないか分かっているか \\ \hline
+返り値が分かっているか \\ \hline
+必要な関数が分かっているか \\ \hline
+処理内容が分かっているか \\ \hline
+自分でプログラムを作れるか \\ \hline
+出力結果のイメージができるか \\ \hline
+出力関数の動きが分かっているか \\ \hline
+\end{tabular}
+\caption{問題作成意図の例}
+\label{tab:ito}
+%%表2
+\end{table}
+\end{center}
+
+
+表\ref{tab:ito}で表された意図は抽象的で、表現が多く記述のバリエーションが多くなる傾向がある。
+そこで、この問題作成意図は、単純化・具体化するために、以降に説明する問題作成ルールを組み合わせることによって表現する。
+
+%問題作成者の意図を反映させて問題を作るために問題作成者が指定する．
+%後述する問題作成ルールを組み合わせることによって表現している．
+
+\subsection{問題作成ルール}
+\label{sec:rule}
+問題作成ルールは構文木のどの部分を穴にするかを指定する記述である．
+このルールに従って問題生成部で構文木の部分木が穴に置換され問題が作成される．
+問題作成ルールは以下のような記述を持つものになる．
+この記述を複数個組み合わせることにより問題作成意図を表現する。
+\begin{center}
+{\bf createblank(枝名,指定(,指定内容))}
+\end{center}
+枝名には表\ref{tab:branch}で示した構文木の節が来る．この指定した節以下を穴埋めの穴と置き換える．\\
+指定には"all"または"select"が入り，"all"の場合は枝名で指定した枝の下はすべて穴になる．
+また，"select"を入れた場合は，後の指定内容で指定したとおりの穴のあき方になる．\\
+指定内容では，枝名で指定した部分の中でも一部分にだけ穴を開けたい場合に指定するのに用いる．
+しかし，この部分指定では構文解析で分割された単位以下の指定はできない．
+ここで用いれるものは，rootonly(枝名となっている部分のみを書き換える)，
+nameonly(子要素の変数名のみ書き換える)，numberonly(変数の値のみ書き換える)，
+conditiononly(条件式のみ書き換える)などがある。
+
+\begin{center}
+\begin{table}[t]
+\begin{tabular}{|c|c|}
+\hline
+指定内容 & 実行内容 \\ \hline \hline
+rootonly & 枝名となっている部分のみを書き換える \\ \hline
+nameonly & 子要素の変数名のみ書き換える \\ \hline
+numberonly & 変数の値のみ書き換える \\ \hline
+conditiononly & 条件文のみ書き換える \\ \hline
+etc & etc\\ \hline
+\end{tabular}
+\caption{指定内容一覧}
+\label{tab:sitei}
+\end{table}
+\end{center}
+
+\subsection{問題生成}
+\label{sec:seisei}
+自動生成には，問題の基となるソースコードと問題作成意図を記述したファイルが必要になる．
+これら2つのファイルをもとに，ソースコードの構文解析を行い，その解析結果に対し問題作成意図を適応し，
+問題の自動生成を行う．
+作成する問題は，穴埋め問題とする．穴埋め問題を使う理由としては，
+穴埋め問題の穴を広くとれば自由記述の問題として出題できるからである．
+また，選択式の問題のように解答例がないため，勘で答えることが難しいので学習効果が高いためである．
+
+問題は\ref{sec:koubun}節で述べた構文解析の結果と\ref{sec:ito}節で述べた問題作成意図から作られる．
+まず，構文解析した結果の変数となる葉にidを付け，変数名から変数名とidの対応表を作る．
+この対応表では，同じ変数は同一のidで定義される．
+
+そこに選ばれた問題作成ルールを順に適用し，穴をあけていく．
+穴の開け方は，まず問題作成ルールの枝名を読み，構文木から枝名と一致する部分木を見つける．
+次に指定のところで記述された内容に従ってその部分木を穴に置き換える．
+そして，出題にはADELのテスト機構\cite{c:test}での問題の流用が出来るように設計したのでテスト機構でも扱えるXMLの形式に成型する．
+このとき，生成する問題には問題ごとに問題idがふられる．そして、適応した問題作成ルールの種類によりグループ分けされ,
+問題データベースに格納される．
+
+構文木に問題作成ルールを適用することで
+問題を自動生成する。
+
+\newpage

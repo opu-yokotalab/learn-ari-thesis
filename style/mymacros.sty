@@ -1,0 +1,98 @@
+%% $Id: mymacros.sty,v 1.2 2005/02/05 06:26:19 emoto Exp $
+
+
+% 〜 丸文字 〜 %
+%\newcommand{\MARU}[1]{{\ooalign{\hfil#1\/\hfil\crcr
+%      \raise.167ex\hbox{\mathhexbox20D}}}}
+\def\MARU#1{{\ooalign{\hfil
+  \ifnum#1>999 \resizebox{.25\width}{\height}{#1}\else%
+  \ifnum#1>99 \resizebox{.33\width}{\height}{#1}\else%
+  \ifnum#1>9 \resizebox{.5\width}{\height}{#1}\else #1%
+  \fi\fi\fi%
+\/\hfil\crcr%
+\raise.167ex\hbox{\mathhexbox20D}}}}
+
+% 〜 番号付きリスト 〜 %
+\newcounter{linenumber}
+\newenvironment{listing}{%
+  \begin{list}{%
+    \footnotesize\arabic{linenumber}}{%
+      \usecounter{linenumber}%
+      \setlength{\baselineskip}{13pt}%
+      \setlength{\itemsep}{0pt}%
+      \setlength{\parsep}{0pt}}}%
+  {\end{list}}
+
+
+% 〜 Qpit 〜 %
+\newcommand{\Qpit}{ \hspace{-1mm}$\mathcal{Q}$\textit{pit} }
+
+% 〜 シミュレイション関係の記号 〜 %
+\newcommand{\simulation}{ \hspace{1mm}\mathcal{S}\hspace{1mm} }
+
+% 〜 例 〜 %
+\newcounter{exampleCount}
+\newenvironment{example}[1]{%
+\refstepcounter{exampleCount}
+\vspace{1mm}
+\parindent=3cm
+  \begin{quotation}{%
+    \hspace*{-6mm}\textbf{例\arabic{exampleCount}} \ #1}
+    \small}{%
+  \begin{flushright}\fbox{}\end{flushright}
+  \end{quotation}}
+
+
+% 〜 定義 〜 %
+\newcounter{definitionCount}
+\newenvironment{definition}[2]{%
+\vspace{1mm}
+\refstepcounter{definitionCount}
+\begin{minipage}{133mm}
+  \begin{itembox}[l]{\textbf{定義\arabic{definitionCount} \ #1}}{%
+    #2}
+    \begin{enumerate}}{%
+    \end{enumerate}
+  \end{itembox}
+\end{minipage}
+\vspace{4mm}}
+
+\newenvironment{definition2}[1]{%
+\vspace{1mm}
+\refstepcounter{definitionCount}
+\begin{minipage}{133mm}
+  \begin{itembox}[l]{\textbf{定義\arabic{definitionCount} \ #1}}}{%
+  \end{itembox}
+\end{minipage}
+\vspace{4mm}}
+
+%\newcounter{definitionCount}
+%\newenvironment{definition}[2]{%
+%\refstepcounter{definitionCount}
+%\parindent=3cm
+%  \begin{quotation}{%
+%    \hspace*{-6mm}\textbf{定義\arabic{definitionCount} \ #1.} \ #2}
+%    \begin{enumerate}}{%
+%    \end{enumerate}
+%  \begin{flushright}\fbox{}\end{flushright}
+% \end{quotation}}
+
+% 〜 枠で囲む 〜 %
+\newenvironment{FRAME}{\begin{trivlist}\item[]
+ \hrule 
+ \hbox to \linewidth\bgroup 
+   \advance\linewidth by -30pt 
+   \hsize=\linewidth
+   \vrule\hfill 
+   \vbox\bgroup  
+    \vskip15pt 
+     \def\themfootnote{\arabic{mpfootnote}}% 
+     \begin{minipage}{\linewidth}}{% 
+     \end{minipage}\vskip15pt 
+   \egroup\hfill\vrule 
+ \egroup\hrule 
+\end{trivlist}}
+
+
+% 〜 〜 %
+

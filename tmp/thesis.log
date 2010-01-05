@@ -1,0 +1,2668 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (Web2C 2009) (format=latex 2009.11.1)  13 NOV 2009 18:17
+entering extended mode
+ restricted \write18 enabled.
+ Source specials enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2008-06-18, ngerman-x-2008-06-18, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, la
+tin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, polish, port
+uguese, romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedi
+sh, turkish, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+(./style/kuisthesis.cls
+\old@latex@skip=\skip41
+\jfsize=\count79
+\jspaceskip=\dimen102
+
+
+! LaTeX Error: Encoding scheme `JY1' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 \DeclareSymbolFont{mincho}{JY1}{mc}{m}{n}
+                                               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Unknown symbol font `mincho'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 \DeclareSymbolFontAlphabet{\mathmc}{mincho}
+                                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Encoding scheme `JY1' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \SetSymbolFont{mincho}{bold}{JY1}{gt}{m}{n}
+                                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Encoding scheme `JY1' unknown.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 \DeclareMathAlphabet\mathgt{JY1}{gt}{m}{n}
+                                                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.194 \reDeclareMathAlphabet
+                            {\mathrm}{\@mathrm}{\@mathmc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \mathrm allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.194 \reDeclareMathAlphabet{\mathrm
+                                    }{\@mathrm}{\@mathmc}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.194 \reDeclareMathAlphabet{\mathrm}{\@mathrm
+                                              }{\@mathmc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.194 ...eMathAlphabet{\mathrm}{\@mathrm}{\@mathmc
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.195 \reDeclareMathAlphabet
+                            {\mathbf}{\@mathbf}{\@mathgt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \select@group has an extra }.
+<inserted text> 
+                \par 
+l.195 \reDeclareMathAlphabet{\mathbf}
+                                     {\@mathbf}{\@mathgt}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \select@group was complete.
+<to be read again> 
+                   \par 
+l.195 \reDeclareMathAlphabet{\mathbf}
+                                     {\@mathbf}{\@mathgt}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+l.195 \reDeclareMathAlphabet{\mathbf}{\@mathbf
+                                              }{\@mathgt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.195 ...eMathAlphabet{\mathbf}{\@mathbf}{\@mathgt
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.196 \jfam
+           \symmincho
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.236 \@normalsize
+                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 \@normalsize
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (33.70819pt too wide) in paragraph at lines 236--237
+[][]\OT1/cmr/m/n/12 zw 
+ []
+
+\@Kwidth=\dimen103
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 252.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 252.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 252.
+! Undefined control sequence.
+l.262 \ifASCII\if@LaTeX@e\@@topmargin
+                                     \topmargin\fi\fi                 % 2.00(7)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \par 
+l.263 
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \par 
+l.263 
+      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Text line contains an invalid character.
+l.315 \def\today{\the\year ^^[
+                              $BG/^^[(B \the\month ^^[$B7n^^[(B \the\day ^^[...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 \def\today{\the\year ^^[$BG/^^[
+                                     (B \the\month ^^[$B7n^^[(B \the\day ^^[...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 ...day{\the\year ^^[$BG/^^[(B \the\month ^^[
+                                                  $B7n^^[(B \the\day ^^[$BF|...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 ...e\year ^^[$BG/^^[(B \the\month ^^[$B7n^^[
+                                                  (B \the\day ^^[$BF|^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 ...^[(B \the\month ^^[$B7n^^[(B \the\day ^^[
+                                                  $BF|^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.315 ...he\month ^^[$B7n^^[(B \the\day ^^[$BF|^^[
+                                                  (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.349 \def\mkt@masterthesis{^^[
+                               $B=$;NO@J8^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.349 \def\mkt@masterthesis{^^[$B=$;NO@J8^^[
+                                            (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.350 \def\mkt@supervisor{^^[
+                             $B;XF36541^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.350 \def\mkt@supervisor{^^[$B;XF36541^^[
+                                          (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.351 \def\mkt@department{^^[
+                             $B5~ETBg3XBg3X1!9)3X8&5f2J^^[(B\\^^[$B=$;N2]Dx>...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.351 ...partment{^^[$B5~ETBg3XBg3X1!9)3X8&5f2J^^[
+                                                  (B\\^^[$B=$;N2]Dx>pJs9)3X@...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.351 ...t{^^[$B5~ETBg3XBg3X1!9)3X8&5f2J^^[(B\\^^[
+                                                  $B=$;N2]Dx>pJs9)3X@l96^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.351 ...8&5f2J^^[(B\\^^[$B=$;N2]Dx>pJs9)3X@l96^^[
+                                                  (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+\c@entranceyear=\count80
+! Text line contains an invalid character.
+l.370 ... \ifDS@master \mkt@masterthesis \else ^^[
+                                                  $B=$;NO@J8^^[(B\fi}\par
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.370 ... \mkt@masterthesis \else ^^[$B=$;NO@J8^^[
+                                                  (B\fi}\par
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.378                         ^^[
+                                 $B2,;38)N)Bg3XBg3X1!^^[(B \\ ^^[$B>pJs7O9)3...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.378 ...               ^^[$B2,;38)N)Bg3XBg3X1!^^[
+                                                  (B \\ ^^[$B>pJs7O9)3X8&5f2...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.378 ...      ^^[$B2,;38)N)Bg3XBg3X1!^^[(B \\ ^^[
+                                                  $B>pJs7O9)3X8&5f2J^^[(B \\
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.378 ...3XBg3X1!^^[(B \\ ^^[$B>pJs7O9)3X8&5f2J^^[
+                                                  (B \\
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.379                         ^^[
+                                 $BEE;R>pJsDL?.9)3X@l96^^[(B\else
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.379 ...             ^^[$BEE;R>pJsDL?.9)3X@l96^^[
+                                                  (B\else
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.380                         ^^[
+                                 $B2,;38)N)Bg3XBg3X1!^^[(B ^^[$B>pJs7O9)3X8&...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.380 ...               ^^[$B2,;38)N)Bg3XBg3X1!^^[
+                                                  (B ^^[$B>pJs7O9)3X8&5f2J^^...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.380 ...         ^^[$B2,;38)N)Bg3XBg3X1!^^[(B ^^[
+                                                  $B>pJs7O9)3X8&5f2J^^[(B \\
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.380 ...)Bg3XBg3X1!^^[(B ^^[$B>pJs7O9)3X8&5f2J^^[
+                                                  (B \\
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.381                         ^^[
+                                 $BEE;R>pJsDL?.9)3X@l96^^[(B\fi\fi\par
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.381 ...             ^^[$BEE;R>pJsDL?.9)3X@l96^^[
+                                                  (B\fi\fi\par
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.388 ...ct{\@abstract\@jtitleforabst\@jauthor{^^[
+                                                  $BFbMF9<35^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.388 ...\@jtitleforabst\@jauthor{^^[$BFbMF9<35^^[
+                                                  (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\app@page=\count86
+\c@figure=\count87
+\c@table=\count88
+\PF@fnotectr=\count89
+\PF@page=\count90
+! Text line contains an invalid character.
+l.800 \def\name@toc{^^[
+                       $BL\<!^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.800 \def\name@toc{^^[$BL\<!^^[
+                                (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.801 \def\name@lof{^^[
+                       $B?^0lMw^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.801 \def\name@lof{^^[$B?^0lMw^^[
+                                  (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.802 \def\name@lot{^^[
+                       $BI=0lMw^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.802 \def\name@lot{^^[$BI=0lMw^^[
+                                  (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.803 \def\name@app{^^[
+                       $BIUO?^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.803 \def\name@app{^^[$BIUO?^^[
+                                (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.804 \def\name@ack{^^[
+                       $B<U<-^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.804 \def\name@ack{^^[$B<U<-^^[
+                                (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.805 \def\name@bib{^^[
+                       $B;29MJ88%^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.806 \def\name@fig{^^[
+                       $B?^^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.806 \def\name@fig{^^[$B?^^^[
+                              (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.807 \def\name@tab{^^[
+                       $BI=^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.807 \def\name@tab{^^[$BI=^^[
+                              (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+Runaway definition?
+->$B;29MJ88\def \name@fig {$B?^(B} \def \name@tab {$BI=(B} \fi \par 
+! Forbidden control sequence found while scanning definition of \name@bib.
+<inserted text> 
+                }
+l.810 ^^L
+         
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Text line contains an invalid character.
+l.840 \def\today{\number\year ^^[
+                                 $BG/^^[(B \number\month ^^[$B7n^^[(B \numbe...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.840 \def\today{\number\year ^^[$BG/^^[
+                                        (B \number\month ^^[$B7n^^[(B \numbe...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.840 ...umber\year ^^[$BG/^^[(B \number\month ^^[
+                                                  $B7n^^[(B \number\day ^^[$...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.840 ...ear ^^[$BG/^^[(B \number\month ^^[$B7n^^[
+                                                  (B \number\day ^^[$BF|^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.840 ...number\month ^^[$B7n^^[(B \number\day ^^[
+                                                  $BF|^^[(B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.840 ...month ^^[$B7n^^[(B \number\day ^^[$BF|^^[
+                                                  (B}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+) (c:/tex/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/tex/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(c:/tex/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/tex/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/tex/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(c:/tex/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(c:/tex/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(c:/tex/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(c:/tex/share/texmf/tex/platex209/base/ascmac.sty
+\scb@x=\box26
+\scscb@x=\box27
+\@bw=\dimen106
+\@nbox=\box28
+\@nbody=\box29
+\@scw=\dimen107
+\@itemh=\dimen108
+\@iboxstr=\toks16
+\@iboxpos=\toks17
+\@bwsp=\box30
+\@@bwsp=\box31
+\@bcal=\count91
+\shaderule=\dimen109
+)
+(c:/tex/share/texmf/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(c:/tex/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(c:/tex/share/texmf/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+(c:/tex/share/texmf/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(c:/tex/share/texmf/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2008/09/18 v0.4 Provides ifxetex conditional
+)
+(c:/tex/share/texmf/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(c:/tex/share/texmf/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen110
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+(c:/tex/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(c:/tex/share/texmf/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+(c:/tex/share/texmf/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+
+Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
+(c:/tex/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 
+)
+(c:/tex/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(c:/tex/share/texmf/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(c:/tex/share/texmf/tex/latex/misc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(c:/tex/share/texmf/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(c:/tex/share/texmf/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(c:/tex/share/texmf/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+(c:/tex/share/texmf/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(c:/tex/share/texmf/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(c:/tex/share/texmf/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count94
+\Field@Width=\dimen111
+\Fld@charsize=\dimen112
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(c:/tex/share/texmf/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count95
+\c@Item=\count96
+\c@Hfootnote=\count97
+)
+*hyperref using driver hypertex*
+(c:/tex/share/texmf/tex/latex/hyperref/hypertex.def
+File: hypertex.def 2009/10/09 v6.79a Hyperref driver for HyperTeX specials
+) (./style/mymacros.sty
+\c@linenumber=\count98
+\c@exampleCount=\count99
+
+! Text line contains an invalid character.
+l.40     \hspace*{-6mm}\textbf{^^[
+                                  $BNc^^[(B\arabic{exampleCount}} \ #1}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.40     \hspace*{-6mm}\textbf{^^[$BNc^^[
+                                         (B\arabic{exampleCount}} \ #1}
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+\c@definitionCount=\count100
+! Text line contains an invalid character.
+l.52   \begin{itembox}[l]{\textbf{^^[
+                                     $BDj5A^^[(B\arabic{definitionCount} \ #...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.52   \begin{itembox}[l]{\textbf{^^[$BDj5A^^[
+                                              (B\arabic{definitionCount} \ #...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.64   \begin{itembox}[l]{\textbf{^^[
+                                     $BDj5A^^[(B\arabic{definitionCount} \ #...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+! Text line contains an invalid character.
+l.64   \begin{itembox}[l]{\textbf{^^[$BDj5A^^[
+                                              (B\arabic{definitionCount} \ #...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+) (./style/multicol.sty
+\c@tracingmulticols=\count101
+\mult@box=\box32
+\multicol@leftmargin=\dimen113
+\c@unbalance=\count102
+\c@collectmore=\count103
+\doublecol@number=\count104
+\multicoltolerance=\count105
+\multicolpretolerance=\count106
+\full@width=\dimen114
+\page@free=\dimen115
+\premulticols=\dimen116
+\postmulticols=\dimen117
+\multicolsep=\skip42
+\multicolbaselineskip=\skip43
+\partial@page=\box33
+\last@line=\box34
+\mult@rightbox=\box35
+\mult@grightbox=\box36
+\mult@gfirstbox=\box37
+\mult@firstbox=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\c@columnbadness=\count107
+\c@finalcolumnbadness=\count108
+\last@try=\dimen118
+\multicolovershoot=\dimen119
+\multicolundershoot=\dimen120
+\mult@nat@firstbox=\box56
+
+
+LaTeX Warning: Command \@footnotetext  has changed.
+               Check if current package is valid.
+
+) (./style/verbatimlist.sty) (./style/verbatimfiles.sty
+\c@lineno=\count109
+) (./thesis.aux)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.46 \begin{document}
+                     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \begin{document}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package hyperref Info: Link coloring OFF on input line 46.
+(c:/tex/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(c:/tex/share/texmf/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count110
+)
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+\AtBeginShipoutBox=\box57
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.49 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.49 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.49 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+(c:/tex/share/texmf/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+
+(c:/tex/share/texmf/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 49.
+
+(c:/tex/share/texmf/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+Overfull \hbox (122.43256pt too wide) in paragraph at lines 49--49
+ \OT1/cmr/m/n/14.4 zw\OT1/cmr/m/n/17.28 zw$\OML/cmm/m/it/17.28 B \OT1/cmr/m/n/1
+7.28 =$\OT1/cmr/bx/n/17.28 ;NO@J8(B 
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.49 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no å in font cmbx12!
+Missing character: There is no æ in font cmbx12!
+Missing character: There is no å in font cmbx12!
+Missing character: There is no Í in font cmbx12!
+Missing character: There is no å in font cmbx12!
+Missing character: There is no ä in font cmbx12!
+Missing character: There is no ñ in font cmbx12!
+Missing character: There is no Ñ in font cmbx12!
+Missing character: There is no Ç in font cmbx12!
+Missing character: There is no ﬂ in font cmbx12!
+Missing character: There is no ñ in font cmbx12!
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no ë in font cmbx12!
+Missing character: There is no Ë in font cmbx12!
+Missing character: There is no Ç in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+
+Overfull \hbox (4.12532pt too wide) in paragraph at lines 49--49
+ []\OT1/cmr/m/n/20.74 zw\OT1/cmr/bx/n/20.74 C 
+ []
+
+Missing character: There is no é in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no ì in font cmbx12!
+Missing character: There is no Æ in font cmbx12!
+Missing character: There is no ê in font cmbx12!
+Missing character: There is no ∂ in font cmbx12!
+Missing character: There is no ê in font cmbx12!
+Missing character: There is no ¨ in font cmbx12!
+Missing character: There is no Ç in font cmbx12!
+Missing character: There is no ∆ in font cmbx12!
+Missing character: There is no ä in font cmbx12!
+Missing character: There is no è in font cmbx12!
+Missing character: There is no É in font cmbx12!
+Missing character: There is no É in font cmbx12!
+Missing character: There is no É in font cmbx12!
+Missing character: There is no É in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+
+Overfull \hbox (46.00366pt too wide) in paragraph at lines 49--49
+ []\OT1/cmr/bx/n/20.74 wKVXe 
+ []
+
+! Extra }, or forgotten $.
+\HyOrg@maketitle ...pervisor \qquad \@supervisor }
+                                                   \vfill \ifDS@master \mkt@...
+l.49 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no Í in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+
+Overfull \hbox (93.11357pt too wide) in paragraph at lines 49--49
+ []$\OML/cmm/m/it/14.4 B\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 XF\OT1/cmr/m/n/1
+4.4 36541(\OML/cmm/m/it/14.4 B c$ 
+ []
+
+! Misplaced alignment tab character &.
+\HyOrg@maketitle ...)N)Bg3XBg3X1!(B $B>pJs7O9)3X8&
+                                                  5f2J(B \\ $BEE;R>pJsDL?.9)...
+l.49 
+     
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (272.67155pt too wide) in paragraph at lines 49--49
+ []$\OML/cmm/m/it/14.4 B\OT1/cmr/m/n/14.4 2\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14
+.4 ; 38)\OML/cmm/m/it/14.4 N\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 Bg\OT1/cmr/m/
+n/14.4 3\OML/cmm/m/it/14.4 XBg\OT1/cmr/m/n/14.4 3\OML/cmm/m/it/14.4 X\OT1/cmr/m
+/n/14.4 1!(\OML/cmm/m/it/14.4 B$\OT1/cmr/m/n/14.4 B>pJs7O9)3X85f2J(B 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.49 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (31.13513pt too wide) in paragraph at lines 49--49
+ []$\OML/cmm/m/it/14.4 BEE\OT1/cmr/m/n/14.4 ; \OML/cmm/m/it/14.4 R > 
+ []
+
+
+Overfull \hbox (99.03308pt too wide) in paragraph at lines 49--49
+ \OML/cmm/m/it/14.4 pJsDL\OT1/cmr/m/n/14.4 ?\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14
+.4 9)3\OML/cmm/m/it/14.4 X\OT1/cmr/m/n/14.4 @\OML/cmm/m/it/14.4 l\OT1/cmr/m/n/1
+4.4 96(\OML/cmm/m/it/14.4 B[]$ 
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.49 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ó in font cmr17!
+Missing character: There is no à in font cmr17!
+Missing character: There is no ¿ in font cmr17!
+Missing character: There is no ç in font cmr17!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\HyOrg@maketitle ...ip \bigskip {\Large \@author }
+                                                  \par \bigskip \bigskip \bi...
+l.49 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.49 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ï in font cmr12!
+Missing character: There is no Ω in font cmr17!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ˙ in font cmr12!
+
+Overfull \hbox (3.76955pt too wide) in paragraph at lines 49--49
+ []\OT1/cmr/m/n/14.4 22N28 
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.49 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1000] (./en_abstract.tex
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.2 \eabstract
+              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (5.46661pt too wide) in paragraph at lines 2--2
+ \OT1/cmr/bx/n/14.4 guage 
+ []
+
+
+Overfull \hbox (5.78328pt too wide) in paragraph at lines 2--2
+ \OT1/cmr/bx/n/14.4 learn- 
+ []
+
+
+Overfull \hbox (16.59586pt too wide) in paragraph at lines 2--2
+\OT1/cmr/bx/n/12 Abstract 
+ []
+
+
+Overfull \hbox (3.51349pt too wide) in paragraph at lines 4--9
+[][]\OT1/cmr/m/n/12 One
+ []
+
+
+Overfull \hbox (8.14816pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 of sig-nif-
+ []
+
+
+Overfull \hbox (17.87445pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 i-cant tech-
+ []
+
+
+Overfull \hbox (14.0231pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 niques for
+ []
+
+
+Overfull \hbox (20.15915pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 dig-i-tal mu-
+ []
+
+
+Overfull \hbox (1.68573pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 seum is
+ []
+
+
+Overfull \hbox (1.22879pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 vide an
+ []
+
+
+Overfull \hbox (2.86072pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 au-thor-
+ []
+
+
+Overfull \hbox (17.22168pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 vi-ron-ment
+ []
+
+
+Overfull \hbox (23.22717pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 where users
+ []
+
+
+Overfull \hbox (4.16626pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 can cre-
+ []
+
+
+Overfull \hbox (2.20795pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 ate and
+ []
+
+
+Overfull \hbox (10.36758pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 main-tain
+ []
+
+
+Overfull \hbox (20.15915pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 dig-i-tal mu-
+ []
+
+
+Overfull \hbox (10.82452pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 se-ums by
+ []
+
+
+Overfull \hbox (23.22717pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 them-selves.
+ []
+
+
+Overfull \hbox (0.47603pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 For it's
+ []
+
+
+Overfull \hbox (5.40652pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 goal, we
+ []
+
+
+Overfull \hbox (14.6106pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 have been
+ []
+
+
+Overfull \hbox (7.43011pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 de-vel-op-
+ []
+
+
+Overfull \hbox (11.34674pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 ing a dig-
+ []
+
+
+Overfull \hbox (4.49265pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 i-tal mu-
+ []
+
+
+Overfull \hbox (13.1745pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 seum sys-
+ []
+
+
+Overfull \hbox (19.85036pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 Cubis. Us-
+ []
+
+
+Overfull \hbox (14.60643pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 ing a Web
+ []
+
+
+Overfull \hbox (7.82178pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 browser,
+ []
+
+
+Overfull \hbox (10.82452pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 users can
+ []
+
+
+Overfull \hbox (19.18pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 freely walk
+ []
+
+
+Overfull \hbox (5.4718pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 through
+ []
+
+
+Overfull \hbox (20.15915pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 dig-i-tal mu-
+ []
+
+
+Overfull \hbox (17.35223pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 se-ums cre-
+ []
+
+
+Overfull \hbox (2.20795pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 ated by
+ []
+
+
+Overfull \hbox (10.59398pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 D-Cubis.
+ []
+
+
+Overfull \hbox (1.22879pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 tal mu-
+ []
+
+
+Overfull \hbox (3.25238pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 seum of
+ []
+
+
+Overfull \hbox (7.33012pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 D-Cubis
+ []
+
+
+Overfull \hbox (4.36209pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 con-sists
+ []
+
+
+Overfull \hbox (22.01617pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 of 3D space
+ []
+
+
+Overfull \hbox (8.40927pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 in-for-ma-
+ []
+
+
+Overfull \hbox (14.54532pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 tion, mul-
+ []
+
+
+Overfull \hbox (3.51349pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 ti-me-dia
+ []
+
+
+Overfull \hbox (2.86072pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 con-tent
+ []
+
+
+Overfull \hbox (8.40927pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 in-for-ma-
+ []
+
+
+Overfull \hbox (6.77734pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 tion and
+ []
+
+
+Overfull \hbox (10.69397pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 their lay-
+ []
+
+
+Overfull \hbox (18.20084pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 for-ma-tion,
+ []
+
+
+Overfull \hbox (21.79108pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 all of which
+ []
+
+
+Overfull \hbox (20.8772pt too wide) in paragraph at lines 4--9
+\OT1/cmr/m/n/12 eas-ily writ-
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.9 
+    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1001]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.9 
+    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1002]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.9 
+    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1003]
+Overfull \hbox (29.29378pt too wide) in paragraph at lines 11--14
+[][]\OT1/cmr/m/n/12 However,
+ []
+
+
+Overfull \hbox (3.25238pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 it is dif-
+ []
+
+
+Overfull \hbox (7.7565pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 fi-cult for
+ []
+
+
+Overfull \hbox (2.01212pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 vis-i-tors
+ []
+
+
+Overfull \hbox (4.81903pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 to know
+ []
+
+
+Overfull \hbox (18.8536pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 which con-
+ []
+
+
+Overfull \hbox (8.47455pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 tents are
+ []
+
+
+Overfull \hbox (11.02036pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 newly in-
+ []
+
+
+Overfull \hbox (13.63144pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 tro-duced,
+ []
+
+
+Overfull \hbox (16.24252pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 and which
+ []
+
+
+Overfull \hbox (7.49539pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 con-tents
+ []
+
+
+Overfull \hbox (13.30505pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 they have
+ []
+
+
+Overfull \hbox (9.4537pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 not seen.
+ []
+
+
+Overfull \hbox (15.91197pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 More-over,
+ []
+
+
+Overfull \hbox (2.53433pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 they do
+ []
+
+
+Overfull \hbox (11.34674pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 not know
+ []
+
+
+Overfull \hbox (18.8536pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 which con-
+ []
+
+
+Overfull \hbox (8.47455pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 tents are
+ []
+
+
+Overfull \hbox (16.24252pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 more pop-
+ []
+
+
+Overfull \hbox (6.66855pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 u-lar. To
+ []
+
+
+Overfull \hbox (8.80093pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 solve the
+ []
+
+
+Overfull \hbox (24.40216pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 above prob-
+ []
+
+
+Overfull \hbox (13.04395pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 lems, this
+ []
+
+
+Overfull \hbox (17.54807pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 pa-per pro-
+ []
+
+
+Overfull \hbox (0.70657pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 poses a
+ []
+
+
+Overfull \hbox (33.93262pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 which records
+ []
+
+
+Overfull \hbox (2.86072pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 and an-
+ []
+
+
+Overfull \hbox (16.04669pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 a-lyzes vis-
+ []
+
+
+Overfull \hbox (6.51624pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 i-tors be-
+ []
+
+
+Overfull \hbox (0.24963pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 hav-ior. 
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.14 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1004]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.14 
+     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1005])
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.54 \tableofcontents
+                     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1006]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.54 \tableofcontents
+                     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no å in font cmbx12!
+Missing character: There is no æ in font cmbx12!
+Missing character: There is no å in font cmbx12!
+Missing character: There is no Í in font cmbx12!
+Missing character: There is no å in font cmbx12!
+Missing character: There is no ä in font cmbx12!
+Missing character: There is no ñ in font cmbx12!
+Missing character: There is no Ñ in font cmbx12!
+Missing character: There is no Ç in font cmbx12!
+Missing character: There is no ﬂ in font cmbx12!
+Missing character: There is no ñ in font cmbx12!
+Missing character: There is no ‚ in font cmbx12!
+Missing character: There is no ë in font cmbx12!
+Missing character: There is no Ë in font cmbx12!
+Missing character: There is no Ç in font cmbx12!
+Missing character: There is no Ã in font cmbx12!
+Missing character: There is no é in font cmbx12!
+Missing character: There is no © in font cmbx12!
+Missing character: There is no ì in font cmbx12!
+Missing character: There is no Æ in font cmbx12!
+Missing character: There is no ê in font cmbx12!
+Missing character: There is no ∂ in font cmbx12!
+Missing character: There is no ê in font cmbx12!
+Missing character: There is no ¨ in font cmbx12!
+Missing character: There is no Ç in font cmbx12!
+Missing character: There is no ∆ in font cmbx12!
+Missing character: There is no ä in font cmbx12!
+Missing character: There is no è in font cmbx12!
+Missing character: There is no É in font cmbx12!
+Missing character: There is no É in font cmbx12!
+Missing character: There is no É in font cmbx12!
+Missing character: There is no É in font cmbx12!
+Missing character: There is no Ä in font cmbx12!
+
+Overfull \hbox (21.24165pt too wide) in paragraph at lines 54--54
+ []\OT1/cmr/bx/n/14.4 wKVXe 
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.54 \tableofcontents
+                     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \tableofcontents
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (48.45607pt too wide) in paragraph at lines 54--54
+[]\OT1/cmr/m/n/14.4 zw[]$\OML/cmm/m/it/14.4 BL\OMS/cmsy/m/n/14.4 h$\OT1/cmr/bx/
+n/14.4 !(B 
+ []
+
+(./thesis.toc
+Overfull \hbox (3.25pt too wide) in paragraph at lines 1--1
+ [][] 
+ []
+
+
+Overfull \hbox (97.79169pt too wide) in paragraph at lines 1--1
+ [][]\OT1/cmr/bx/n/12 Introduction[] []  
+ []
+
+
+Overfull \hbox (3.25pt too wide) in paragraph at lines 2--2
+ [][] 
+ []
+
+
+Overfull \hbox (78.8472pt too wide) in paragraph at lines 2--2
+ [][]\OT1/cmr/bx/n/12 Overview[] []  
+ []
+
+
+Overfull \hbox (3.25pt too wide) in paragraph at lines 3--3
+ [][] 
+ []
+
+
+Overfull \hbox (66.10973pt too wide) in paragraph at lines 3--3
+ [][]\OT1/cmr/bx/n/12 System 
+ []
+
+
+Overfull \hbox (40.59029pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/bx/n/12 Model[] []  
+ []
+
+
+Overfull \hbox (3.25pt too wide) in paragraph at lines 4--4
+ [][] 
+ []
+
+
+Overfull \hbox (116.78471pt too wide) in paragraph at lines 4--4
+ [][]\OT1/cmr/bx/n/12 Implementation[] []  
+ []
+
+
+Overfull \hbox (3.25pt too wide) in paragraph at lines 5--5
+ [][] 
+ []
+
+
+Overfull \hbox (86.36111pt too wide) in paragraph at lines 5--5
+ [][]\OT1/cmr/bx/n/12 Evaluation[] []  
+ []
+
+Missing character: There is no å in font cmbx12!
+Missing character: There is no ã in font cmbx12!
+Missing character: There is no ò in font cmbx12!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...section}{\numberline {6}åãò_}{1}{section.6}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   }
+l.6 ...section}{\numberline {6}åãò_}{1}{section.6}
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...section}{\numberline {6}åãò_}{1}{section.6}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.6 ...section}{\numberline {6}åãò_}{1}{section.6}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (3.25pt too wide) in paragraph at lines 6--6
+ [][] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 6--6
+ [][]$[][]$ []  
+ []
+
+! Extra }, or forgotten $.
+<argument> ...\hbox to\@tempdima {\hfil }$B<U<-(B}
+                                                  \hyper@linkend 
+l.7 ...\@tempdima {\hfil }$B<U<-(B}{1}{section*.2}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...\@tempdima {\hfil }$B<U<-(B}{1}{section*.2}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 ...\@tempdima {\hfil }$B<U<-(B}{1}{section*.2}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (3.25pt too wide) in paragraph at lines 7--7
+ [][] 
+ []
+
+
+Overfull \hbox (45.50394pt too wide) in paragraph at lines 7--7
+ [][]$\OML/cmm/m/it/12 B < 
+ []
+
+
+Overfull \hbox (24.95561pt too wide) in paragraph at lines 7--7
+ \OML/cmm/m/it/12 U < 
+ []
+
+
+Overfull \hbox (26.68462pt too wide) in paragraph at lines 7--7
+ \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 B[]$ []  
+ []
+
+Runaway argument?
+{\hbox to\@tempdima {\hfil }$B;29MJ88\def {$B?^(B} \def {$BI=(B} 
+! Paragraph ended before \contentsline was complete.
+<to be read again> 
+                   \par 
+l.8 ... }$B;29MJ88\def {$B?^(B} \def {$BI=(B} \par
+                                                   }{2}{section*.3}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+l.8 ...$B;29MJ88\def {$B?^(B} \def {$BI=(B} \par }
+                                                  {2}{section*.3}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+)
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
+
+
+Overfull \hbox (38.8284pt too wide) in paragraph at lines 8--54
+[][]\OT1/cmr/m/n/12 2section*.3 
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.54 \tableofcontents
+                     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1007] (./intro.tex
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section{Introduction}
+                          
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (112.52446pt too wide) in paragraph at lines 1--1
+[][]\OT1/cmr/m/n/14.4 zw[]\OT1/cmr/bx/n/14.4 Introduction 
+ []
+
+) (./overview.tex
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section{Overview}
+                      
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (89.79115pt too wide) in paragraph at lines 1--1
+[][]\OT1/cmr/m/n/14.4 zw[]\OT1/cmr/bx/n/14.4 Overview 
+ []
+
+) (./model.tex
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section{System Model}
+                          
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (74.50621pt too wide) in paragraph at lines 1--1
+[][]\OT1/cmr/m/n/14.4 zw[]\OT1/cmr/bx/n/14.4 System
+ []
+
+
+Overfull \hbox (34.10826pt too wide) in paragraph at lines 1--1
+\OT1/cmr/bx/n/14.4 Model 
+ []
+
+) (./imple.tex
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section{Implementation}
+                            
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (135.31609pt too wide) in paragraph at lines 1--1
+[][]\OT1/cmr/m/n/14.4 zw[]\OT1/cmr/bx/n/14.4 Implementation 
+ []
+
+) (./eval.tex
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section{Evaluation}
+                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (98.80779pt too wide) in paragraph at lines 1--1
+[][]\OT1/cmr/m/n/14.4 zw[]\OT1/cmr/bx/n/14.4 Evaluation 
+ []
+
+) (./conclusion.tex
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \section{åãò_}
+                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no å in font cmbx12!
+Missing character: There is no ã in font cmbx12!
+Missing character: There is no ò in font cmbx12!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1 \section{åãò_}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing { inserted.
+<to be read again> 
+                   \@@par 
+l.1 \section{åãò_}
+                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1 \section{åãò_}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1 \section{åãò_}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (23.87459pt too wide) in paragraph at lines 1--1
+[][]\OT1/cmr/m/n/14.4 zw[]$[]$ 
+ []
+
+) (./thanks.tex
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.3 \acknowledgments
+                    
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 \acknowledgments
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (25.47932pt too wide) in paragraph at lines 3--3
+[][]\OT1/cmr/m/n/14.4 zw[]$\OML/cmm/m/it/14.4 B <
+ []
+
+
+Overfull \hbox (23.16817pt too wide) in paragraph at lines 3--3
+\OML/cmm/m/it/14.4 U < \OMS/cmsy/m/n/14.4 ^^@\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/1
+4.4 B$ 
+ []
+
+Missing character: There is no ñ in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no § in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no Ü in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no  in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ﬂ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no È in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ë in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no ß in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ÿ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ⁄ in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no  in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ∏ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no Í in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no ä in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ” in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ‹ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ∑ in font cmr12!
+Missing character: There is no Å in font cmr12!
+
+Overfull \hbox (20.4772pt too wide) in paragraph at lines 5--7
+[][]\OT1/cmr/m/n/12 iAwAc[
+ []
+
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ‹ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no ñ in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no § in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no Ü in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no ä in font cmr12!
+Missing character: There is no ÷ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no ë in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no æ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no  in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ∏ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no ö in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no á in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ∂ in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Á in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no ë in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no ä in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ´ in font cmr12!
+Missing character: There is no ü in font cmr12!
+Missing character: There is no › in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no ä in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ” in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ‹ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ∑ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no ≈ in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ˙ in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Á in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no ” in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no æ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ¶ in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no  in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no ∏ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no î in font cmr12!
+! Undefined control sequence.
+l.12 ímî\É
+          ÅÉfÉBÉAçHäwå§ãÜé∫ÇÃèîéÅÇ…å˙Ç≠å‰óÁê\Çµè„Ç∞Ç‹Ç∑ÅB
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Å in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no ä in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no § in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no Ü in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no ∫ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no é in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ˙ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no Á in font cmr12!
+Missing character: There is no ê in font cmr12!
+! Undefined control sequence.
+l.12 ímî\ÉÅÉfÉBÉAçHäwå§ãÜé∫ÇÃèîéÅÇ…å˙Ç≠å‰óÁê\Ç
+                                              µè„Ç∞Ç‹Ç∑ÅB
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no µ in font cmr12!
+Missing character: There is no è in font cmr12!
+Missing character: There is no „ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ‹ in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no ∑ in font cmr12!
+Missing character: There is no Å in font cmr12!
+)
+Overfull \hbox (22.59247pt too wide) in paragraph at lines 8--77
+[][]\OT1/cmr/m/n/12 ALvAA
+ []
+
+
+Overfull \hbox (2.03851pt too wide) in paragraph at lines 8--77
+[]\OT1/cmr/m/n/12 L`A
+ []
+
+
+Overfull \hbox (21.12582pt too wide) in paragraph at lines 8--77
+\OT1/cmr/m/n/12 mf-BAHwB
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--77
+
+ []
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.77 \newpage
+             
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[1] (./thesis.bbl
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.1 \begin{thebibliography}{1}
+                              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1 \begin{thebibliography}{1}
+                              
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (69.30057pt too wide) in paragraph at lines 1--1
+[][]\OT1/cmr/m/n/14.4 zw[]$\OML/cmm/m/it/14.4 B\OT1/cmr/m/n/14.4 ; 29\OML/cmm/m
+/it/14.4 MJ\OT1/cmr/m/n/14.4 88$ 
+ []
+
+! Extra \else.
+\H@old@ssect ...lty \@M #5\@@par }\endgroup \else 
+                                                  \def \@svsechd {#4{\hskip ...
+l.1 \begin{thebibliography}{1}
+                              
+I'm ignoring this; it doesn't match any \if.
+
+! Undefined control sequence.
+\name@bib ->$B;29MJ88\def \name@fig 
+                                    {$B?^(B} \def \name@tab {$BI=(B} \fi \par  
+l.1 \begin{thebibliography}{1}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\name@bib ...ef \name@fig {$B?^(B} \def \name@tab 
+                                                  {$BI=(B} \fi \par  
+l.1 \begin{thebibliography}{1}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra \fi.
+\name@bib ...{$B?^(B} \def \name@tab {$BI=(B} \fi 
+                                                  \par  
+l.1 \begin{thebibliography}{1}
+                              
+I'm ignoring this; it doesn't match any \if.
+
+Missing character: There is no â in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ñ in font cmr12!
+Missing character: There is no Á in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ´ in font cmr12!
+Missing character: There is no ü in font cmr12!
+Missing character: There is no › in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no Í in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no È in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no û in font cmr12!
+Missing character: There is no å in font cmr12!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 ``ECAÉãÅ[ÉãÇ…ÇÊÇÈìKâûå^
+                           e ÉâÅ[ÉjÉìÉOÅEÉVÅ[ÉPÉìÉVÉìÉOêßå‰ÉÇÉfÉãÅC''
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 
+    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no É in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ß in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no ‰ in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no Ç in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no ä in font cmr12!
+Missing character: There is no ã in font cmr12!
+Missing character: There is no ï in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no Å in font cmr12!
+
+Overfull \hbox (20.90498pt too wide) in paragraph at lines 4--7
+[][]\OT1/cmr/m/n/12 NC]CcC
+ []
+
+
+Overfull \hbox (296.14612pt too wide) in paragraph at lines 4--7
+\OT1/cmr/m/n/12 ``ECA[K$[][\OML/cmm/m/it/12 jOEV\OT1/cmr/m/n/12 [\OML/cmm/m/it/
+12 PVOfC[]MwZCvol:\OT1/cmr/m/n/12 106\OML/cmm/m/it/12 Cno:\OT1/cmr/m/n/12 148\O
+ML/cmm/m/it/12 CDE\OT1/cmr/m/n/12 2006 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (29.43726pt too wide) in paragraph at lines 4--7
+\OT1/cmr/m/n/12 22\OML/cmm/m/it/12 Cpp:\OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (26.87772pt too wide) in paragraph at lines 4--7
+\OT1/cmr/m/n/12 6\OML/cmm/m/it/12 C\OT1/cmr/m/n/12 2006\OML/cmm/m/it/12 D[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.7 
+    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+)
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   z
+l.81 \end{document}
+                   
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[2] (./thesis.aux) )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 8 ({)
+### simple group (level 1) entered at line 5 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 4339 strings out of 493858
+ 61317 string characters out of 3153117
+ 117369 words of memory out of 1500000
+ 7528 multiletter control sequences out of 15000+200000
+ 14121 words of font info for 59 fonts, out of 2000000 for 2000
+ 714 hyphenation exceptions out of 8191
+ 38i,4n,28p,280b,321s stack positions out of 3000i,500n,5000p,500000b,5000s
+
+Output written on thesis.dvi (11 pages, 6892 bytes).

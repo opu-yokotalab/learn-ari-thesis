@@ -1,0 +1,341 @@
+\typeout{Style for Thesis Abstract v12.3 <2001/01/15>}
+
+%%%%
+%%%% 書式設定
+%%%%
+% 印字領域
+\setlength{\textwidth}{170.0mm}
+\setlength{\textheight}{265.0mm}
+\setlength{\paperwidth}{170.0mm}
+\setlength{\paperheight}{265.0mm}
+% 上マージン
+\setlength{\topmargin}{15.0mm}
+\addtolength{\topmargin}{-1.0in}
+\setlength{\voffset}{0.0mm}
+\setlength{\topskip}{0.0mm}
+% 左マージン
+\setlength{\oddsidemargin}{25.0mm}
+\addtolength{\oddsidemargin}{-1.0in}
+\setlength{\evensidemargin}{25.0mm}
+\addtolength{\evensidemargin}{-1.0in}
+\setlength{\hoffset}{0.0mm}
+% ヘッダ領域
+\setlength{\headheight}{0.0mm}
+\setlength{\headsep}{0.0mm}
+% フッタ領域
+\setlength{\footskip}{0.0mm}
+% ページ出力
+\pagestyle{plain}
+\setlength{\footskip}{6.25mm}
+\def\thepage{\fontsize{12}{12}\selectfont\頁}%
+
+
+%%%%
+%%%% Teikei 0.95 (youshi.sty より)
+%%%%
+\newdimen\X
+\newdimen\Y
+\newdimen\Xa
+\newdimen\Xb
+\newdimen\Xc
+\newdimen\Xd
+\newdimen\Xe
+\newdimen\Xee
+\newdimen\Xf
+\newdimen\Xff
+\newdimen\Xg
+\newdimen\Xh
+\newdimen\XI %これだけ大文字なのは、ギリシャ文字とぶつかるから。
+\newdimen\Xj
+\newdimen\Xk
+\newdimen\Xl
+\newdimen\Xll
+\newdimen\Xm
+\newdimen\Xmm
+\newdimen\Xn
+\newdimen\Xo
+\newdimen\Xp
+\newdimen\Xq
+\newdimen\Xr
+\newdimen\Xs
+\newdimen\Xss
+\newdimen\Xt
+\newdimen\Xtt
+\newdimen\Ya
+\newdimen\Yb
+\newdimen\Yc
+\newdimen\Yd
+\newdimen\Ye
+\newdimen\Yf
+\newdimen\Yg
+\newdimen\Yh
+\newdimen\Yi
+
+%%%%
+%%%% Teikei 0.95 (teikei.cls より)
+%%%%
+\newif\if枠表示\枠表示true
+\def\FRAMEON{\枠表示true}%with rules and item names
+\def\FRAMEOFF{\枠表示false}%without rules nor item names
+
+\newbox\dummybox
+\newdimen\htbackskip
+\newdimen\dpbackskip
+\long\def\XY#1#2#3{
+  \setbox\dummybox=\vbox{
+    \vskip#2
+    \vskip\voffset % by masahide@mk.ecei.tohoku.ac.jp
+    \hbox to \hsize{%
+      \hskip#1
+      \hskip\hoffset % by masahide@mk.ecei.tohoku.ac.jp
+      \vbox{\advance\hsize by -#1#3}\hfil
+    }
+  }
+  \htbackskip=-\ht\dummybox
+  \dpbackskip=-\dp\dummybox
+%
+  \box\dummybox\nointerlineskip
+  \vskip\htbackskip
+  \vskip\dpbackskip
+%  \box\sepinbox\nointerlineskip
+}
+\long\def\XYBC#1#2#3#4#5{
+  \X=#3 \Y=#4 \advance\X by -#1 \advance\Y by -#2
+  \XY{#1}{#2}{\CBOX{\X}{\Y}{#5}}
+}
+\long\def\CBOX#1#2#3{{
+  \hsize=#1\linewidth=\hsize
+  \setbox\dummybox\hbox{#3}
+  \vbox to #2{
+    \vfil
+    \ifdim#1 < \wd\dummybox
+      \X=#1
+      \advance\X by -4mm
+      \hbox to \hsize{\hfil\vbox{\hsize=\X\linewidth=\hsize #3}\hfil}
+    \else
+      \hbox to \hsize{\hfil #3\hfil}
+    \fi
+    \vfil
+  }
+}}
+\def\Add#1#2{\def\DUMMY{#2}\ifx\DUMMY\empty\else\advance#1 by#2\fi}
+\def\Brule#1#2#3#4#5{
+   \X=#4 \Add{\X}{#5}
+   \Hrule{#1}{#2}{#3}{#5}
+   \Hrule{#1}{#4}{#3}{#5}
+   \Vrule{#1}{#2}{#4}{#5}
+   \Vrule{#3}{#2}{\X}{#5}
+}
+\newdimen\rulelength
+\def\Vrule#1#2#3#4{
+   \rulelength=#3
+   \advance\rulelength by -#2
+   \XY{#1}{#2}{\vrule width#4 height\rulelength depth0pt}
+}
+\def\Hrule#1#2#3#4{
+   \rulelength=#3
+   \advance\rulelength by -#1
+   \XY{#1}{#2}{\vrule width\rulelength height#4 depth0pt}
+}
+\def\kinto#1#2{\hbox to #1{\kintokanjiskip#2}}
+\def\kintokanjiskip{\kanjiskip=0pt plus 1fil minus 1fil%
+\xkanjiskip=\kanjiskip}
+%%%%
+%%%% Teikei 0.95 ここまで
+%%%%
+
+\def\frameouta{
+  \newlength{\parindentorg}
+  \setlength{\parindentorg}{\parindent}
+  \parindent=0mm
+  \frameparama
+  \vbox{\if枠表示\framedisplaya\fi}
+% 位置設定
+  \XYBC{\Xd}{\Yb}{\Xf}{\Yc}{\fontsize{12}{12}\selectfont\平成年度\hfil}
+  \XYBC{\Xf}{\Yb}{\Xn}{\Yc}{\fontsize{12}{12}\selectfont%
+    \kinto{55.0mm}{\要旨表題}\hfil}
+  \if特別研究論文
+    \if学籍番号表示
+      \XYBC{\Xs}{\Yc}{\Xe}{\Yd}{\fontsize{12}{12}\selectfont{}教育研究分野}
+      \XYBC{\Xe}{\Yc}{\Xf}{\Yd}{\fontsize{12}{12}\selectfont\教育研究分野\hfil}
+      \XYBC{\Xg}{\Yc}{\Xj}{\Yd}{\fontsize{12}{12}\selectfont{}学籍番号}
+      \XYBC{\Xj}{\Yc}{\Xk}{\Yd}{\fontsize{12}{12}\selectfont\学籍番号}
+      \XYBC{\Xl}{\Yc}{\Xm}{\Yd}{\fontsize{12}{12}\selectfont{}氏名}
+      \XYBC{\Xm}{\Yc}{\Xt}{\Yd}{\fontsize{12}{12}\selectfont\氏名\hfil}
+    \else
+      \XYBC{\Xss}{\Yc}{\Xee}{\Yd}{\fontsize{12}{12}\selectfont{}教育研究分野}
+      \XYBC{\Xee}{\Yc}{\Xff}{\Yd}{\fontsize{12}{12}\selectfont\教育研究分野\hfil}
+      \XYBC{\Xll}{\Yc}{\Xmm}{\Yd}{\fontsize{12}{12}\selectfont{}氏名}
+      \XYBC{\Xmm}{\Yc}{\Xtt}{\Yd}{\fontsize{12}{12}\selectfont\氏名\hfil}
+    \fi
+  \else
+    \XYBC{\Xss}{\Yc}{\Xee}{\Yd}{\fontsize{12}{12}\selectfont{}教育研究分野}
+    \XYBC{\Xee}{\Yc}{\Xff}{\Yd}{\fontsize{12}{12}\selectfont\教育研究分野\hfil}
+    \XYBC{\Xll}{\Yc}{\Xmm}{\Yd}{\fontsize{12}{12}\selectfont{}氏名}
+    \XYBC{\Xmm}{\Yc}{\Xtt}{\Yd}{\fontsize{12}{12}\selectfont\氏名\hfil}
+  \fi
+  \XYBC{\Xc}{\Yd}{\Xo}{\Ye}{\fontsize{14.4}{14.4}\selectfont\論文題目}
+
+%   \XYBC{\Xh}{\Yh}{\XI}{\Yi}{\fontsize{12}{12}\selectfont\頁}
+
+  \vskip\Yf
+  \vskip 1.0mm
+  \parindent=\parindentorg
+}
+
+%%%%
+%%%% 枠表示
+%%%%
+\def\framedisplaya{
+  \Brule{\Xb}{\Yb}{\Xp}{\Yf}{0.1pt}
+  \Brule{\Xb}{\Yf}{\Xp}{\Yg}{0.1pt}
+}
+\def\framedisplayb{
+  \Brule{\Xb}{\Ya}{\Xp}{\Yg}{0.1pt}
+}
+
+%%%%
+%%%% 定型枠の各座標データ
+%%%%
+\def\frameparama{
+  \Xb=  0.0mm
+  \Xq=  2.0mm %
+%%  \Xs= 12.5mm
+  \Xs= 8.5mm
+  \Xss= 27.5mm
+  \Xc= 20.0mm
+%  \Xd= 32.0mm
+  \Xd= 27.0mm
+%%  \Xe= 37.0mm
+  \Xe= 33.0mm
+  \Xee= 52.0mm
+%%  \Xf= 76.0mm
+  \Xf= 80.0mm
+  \Xff= 91.0mm
+%%  \Xg= 78.0mm
+  \Xg= 82.0mm
+%   \Xh= 80.0mm
+  \Xh= 79.0mm
+%   \XI= 90.0mm
+  \XI= 91.0mm
+%%  \Xj= 96.0mm
+  \Xj= 100.0mm
+%%  \Xk=116.0mm
+  \Xk=120.0mm
+%%  \Xl=119.0mm
+  \Xl=123.0mm
+  \Xll=104.0mm
+%%  \Xm=130.0mm
+  \Xm=134.0mm
+  \Xmm=115.0mm
+  \Xn=136.0mm
+  \Xo=150.0mm
+%%  \Xt=157.5mm
+  \Xt=161.5mm
+  \Xtt=142.5mm
+  \Xr=168.0mm %
+  \Xp=170.0mm
+  \Yb=  0.0mm
+  \Yc=  6.0mm
+  \Yd= 13.0mm
+  \Ye= 28.0mm
+  \Yf= 30.0mm
+  \Yg=265.0mm
+  \Yh=267.0mm
+  \Yi=272.0mm
+  }
+
+%%%%
+%%%% 各種定義
+%%%%
+\newif\if特別研究論文\特別研究論文false
+\def\特別研究論文{\特別研究論文true}
+\newif\if修士論文\修士論文false
+\def\修士論文{\修士論文true}
+\newif\if学籍番号表示\学籍番号表示true
+\def\学籍番号表示なし{\学籍番号表示false}
+
+\def\平成年度{平成\年度\ 年度}
+\def\要旨表題{
+  \if特別研究論文
+    特別研究発表要旨
+  \else
+    \if修士論文
+      修士論文発表要旨
+    \else
+      論文指定なし
+    \fi
+  \fi
+}
+\def\頁{
+  \if特別研究論文
+    \頁アルファベット{}-\頁発表順
+  \else
+    \if修士論文
+      \頁アルファベット\頁発表順{}-\arabic{page}
+    \else
+      頁設定なし
+    \fi
+  \fi
+  }
+
+\def\氏名{名前なし}
+\def\学籍番号{6100000}
+\def\教育研究分野{教育研究分野なし}
+\def\論文題目{論文題目}
+\def\頁アルファベット{Z}
+\def\頁発表順{99}
+\def\年度{99}
+
+%%%%
+%%%% \@startsection の再定義
+%%%%
+\def\@startsection#1#2#3#4#5#6{%
+  \if@noskipsec \leavevmode \fi
+  \par
+  \@tempskipa #4\relax
+  \@afterindenttrue
+  \ifdim \@tempskipa <\z@
+    \@tempskipa -\@tempskipa \@afterindentfalse
+  \fi
+%   \if@nobreak
+    \everypar{}%
+%   \else
+%     \addpenalty\@secpenalty\addvspace\@tempskipa
+%   \fi
+  \@ifstar
+    {\@ssect{#3}{#4}{#5}{#6}}%
+    {\@dblarg{\@sect{#1}{#2}{#3}{#4}{#5}{#6}}}}
+\def\@sect#1#2#3#4#5#6[#7]#8{%
+  \ifnum #2>\c@secnumdepth
+    \let\@svsec\@empty
+  \else
+    \refstepcounter{#1}%
+    \protected@edef\@svsec{\@seccntformat{#1}\relax}%
+  \fi
+  \@tempskipa #5\relax
+  \ifdim \@tempskipa>\z@
+    \begingroup
+      #6{%
+        \@hangfrom{\hskip #3\relax\@svsec}%
+          \interlinepenalty \@M #8\@@par}%
+    \endgroup
+    \csname #1mark\endcsname{#7}%
+    \addcontentsline{toc}{#1}{%
+      \ifnum #2>\c@secnumdepth \else
+        \protect\numberline{\csname the#1\endcsname}%
+      \fi
+      #7}%
+  \else
+    \def\@svsechd{%
+      #6{\hskip #3\relax
+      \@svsec #8}%
+      \csname #1mark\endcsname{#7}%
+      \addcontentsline{toc}{#1}{%
+        \ifnum #2>\c@secnumdepth \else
+          \protect\numberline{\csname the#1\endcsname}%
+        \fi
+        #7}
+      }%
+  \fi
+  \@xsect{#5}}

@@ -1,0 +1,55 @@
+\section{実装}
+\subsection{問題の自動生成}
+構文解析はANTLRを用いて作成した．
+ANTLRを用いた理由は優秀なベンチマークがあり，デバッグ環境も充実していたからである．
+また，問題作成ルールや問題作成意図の解析機構，問題生成機構はJAVAを用いて実装されている．
+
+
+
+テスト記述
+\begin{center}
+\begin{description}
+\item[{\bf program\_set}] 
+問題のグループを持つ要素で，問題グループを識別するid属性を持つ．子要素には複数のitem要素を含む．
+\item[{\bf item}]
+問題候補のルート要素であり，固有の識別子であるid属性と問題の形式を表すtype属性をもつ．item1つが問題１問に相当する．子要素にquestion要素，response要素，hints要素，explanation要素，evaluate要素をもつ．
+\item[{\bf question要素}]
+問題の内容を記述する要素で，穴が開けられたソースコードはここに記述される．
+\item[{\bf response要素}]
+提示の際に解答の候補として記述され，穴埋め問題の解答欄の数に比例する．
+\item[{\bf hints要素}]
+問題に対するヒントが記述されている．
+\item[{\bf evaluate要素}]
+採点に関する事柄を記述する要素．子要素にfunction,correct,score,weight,pointを持つ．
+\item[{\bf correct要素}]
+正解となる文字列を記述する．この要素と解答を比較し正解判定を行う．
+\item[{\bf point要素}]
+この問題を正解すると加算される点数を記述する．
+\item[{\bf explanation要素}]
+採点後に表示される文字列を記述する．
+\end{description}
+\end{center}
+
+\subsection{出題の自動制御}
+すべてJAVAを用いて実装されている．
+
+\subsection{自動採点}
+すべてJAVAを用いて実装した．
+
+\subsection{システムの全体像}
+自動生成機構で問題作成者が問題を作成し，問題データベースに登録する．
+問題データベースから学習者に応じて出題機構が問題を選択し出題する．
+学習者からの回答と問題からプログラムを作成し構文解析にかける．
+解答のソースを構文解析したものと比較を行い正誤判定を行う．
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=7cm,height=5cm]{image/not_found.eps}
+\vspace{-2mm}
+\caption{システムの流れ}
+\label{fig:systemall}
+\end{center}
+\vspace{-5mm}
+\end{figure}
+
+\newpage

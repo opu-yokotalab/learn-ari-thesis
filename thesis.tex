@@ -1,0 +1,137 @@
+%% $Id: thesis.tex,v 1.8 2005/02/09 01:09:16 emoto Exp $
+
+\documentclass[]{./style/kuisthesis}
+
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{ascmac}
+\usepackage{latexsym}
+\usepackage[hypertex]{hyperref}
+\usepackage{./style/mymacros}
+\usepackage{./style/multicol}
+\usepackage{./style/verbatimlist}
+\usepackage{./style/verbatimfiles}
+%\usepackage{./style/prettyref}
+
+\def\LATEX{{\rm (L\kern-.36em\raise.3ex\hbox{\sc a})\TeX}}
+\def\LATex{\iLATEX\small}
+\def\iLATEX#1{L\kern-.36em\raise.3ex\hbox{#1\bf A}\kern-.15em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}
+\def\LATEXe{\ifx\LaTeXe\undefined \LaTeX 2e\else\LaTeXe\fi}
+\def\LATExe{\ifx\LaTeXe\undefined \iLATEX\scriptsize 2e\else\LaTeXe\fi}
+\let\EM\bf
+%\def\|{\verb\}
+\def\<{\(\langle\)}
+\def\>{\(\rangle\)}
+\def\CS#1{{\tt\string#1}}
+
+%旧タイトル
+%\jtitle[C言語における穴埋め問題を用いた//演習システムの実現]
+          % 和文題目（内容梗概／目次用）
+%       {C言語における穴埋め問題を用いた//演習システムの実現}
+
+\jtitle[C言語穴埋め問題を用いた学習システムの実現]
+          % 和文題目（内容梗概／目次用）
+       {C言語穴埋め問題を用いた学習システムの実現}
+          % 和文題目
+
+\etitle[C Language learning System] % 英文題目（内容梗概／目次用）
+       {C Language learning System} % 英文題目
+
+\jauthor{有安 浩平}           % 和文著者名
+\eauthor{Kouhei Ariyasu}      % 和文著者名
+\supervisor{横田 一正 教授} % 指導教官名
+\date{平成22年2月8日}      % 提出年月日
+%\date{\small{\$Id: thesis.tex,v 1.8 2005/02/09 01:09:16 emoto Exp \$}}
+% $Id:$
+
+\begin{document}
+
+\maketitle
+
+% 英語
+%\input{en_abstract}
+
+%%%% 目次
+\tableofcontents
+
+%% 序論
+\input{1}
+%\section{序論}
+%\subsection{研究の背景と目的}
+%\subsection{本論文の構成}
+
+%% 2章
+\input{2}
+%\section{穴埋め問題を用いた学習システム}
+%\subsection{穴埋め問題を用いた学習とは}
+%\subsection{関連研究}
+%\subsection{関連研究の問題点}
+%\subsection{システムの要件}
+%\subsection{アプローチ}
+
+
+%% 3章
+\input{3}
+%\section{問題の自動生成}
+%\subsection{自動生成機構}
+%\subsubsection{生成する問題}
+%\subsubsection{問題作成の流れ}
+%\subsection{構文解析}
+%\subsection{問題作成ルール}
+%\subsection{問題作成意図}
+%\subsection{問題生成}
+
+%% 4章
+\input{4}
+%\section{出題の自動制御}
+%\subsection{出題手法}
+%\subsubsection{総括的評価}
+%\subsubsection{形成的評価}
+%\subsubsection{関係性を用いた出題}
+%\subsection{出題の流れ}
+
+
+
+%% 5章
+\input{5}
+%\section{自動採点}
+%\subsection{採点上の問題点}
+%\subsection{採点手法}
+%\subsubsection{対応テーブルによる変数の比較}
+%\subsubsection{正規フォーマットへの統一}
+%\subsubsection{構文木の比較}
+
+
+%%6章
+\input{6}
+%\section{実装}
+%\subsection{問題の自動生成}
+%\subsection{出題の自動制御}
+%\subsection{自動採点}
+%\subsection{システムの全体像}
+
+%%7章
+\input{7}
+%\section{実証実験}
+%\subsection{実験方法}
+%\subsection{実験結果}
+%\subsection{考察}
+
+%% 章
+%\input{7}
+%\section{ADELとの連携}
+
+%% 結論
+\input{conclusion}
+%\section{結論と今後の課題}
+
+%% 謝辞
+\input{thanks}
+%
+\newpage
+
+\bibliographystyle{unsrt}
+\bibliography{thesis}
+
+\end{document}

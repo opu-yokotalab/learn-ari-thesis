@@ -1,0 +1,11 @@
+\def\astypedlist{\setcounter{lineno}{0}%
+
+\trivlist \item[]
+\everypar{\stepcounter{lineno}\llap{\thelineno\ \ }}
+\if@minipage\else\vskip\parskip\fi
+%\leftskip\@totalleftmargin\rightskip\z@
+\leftskip15pt\rightskip\z@
+\parindent\z@\parfillskip\@flushglue\parskip\z@
+\@tempswafalse \def\par{\if@tempswa\hbox{}\fi\@tempswatrue\@@par}
+\obeylines \tt \catcode``=13 \@noligs \let\do\@makeother \do\ \do\^^K\do\^^A
+ \frenchspacing\@vobeyspaces}
