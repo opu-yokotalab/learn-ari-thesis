@@ -1,4 +1,4 @@
-This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  5 JAN 2010 18:01
+This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  12 JAN 2010 17:35
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
@@ -339,62 +339,159 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \openout3 = `thesis.toc'.
 
  [1002] (./1.tex [1]
-[2]) (./2.tex
+[2]) (./2.tex [3]
 File: image/max_c.eps Graphic file (type eps)
  <image/max_c.eps>
-Overfull \hbox (22.66896pt too wide) in paragraph at lines 38--40
- [] 
- []
-
 File: image/javadrill.eps Graphic file (type eps)
-<image/javadrill.eps> [3] [4] [5] [6] [7]) (./3.tex
+ <image/javadrill.eps> [4] [5] [6] [7])
+(./3.tex
 File: image/mon_rei.eps Graphic file (type eps)
  <image/mon_rei.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [8]
 File: image/not_found.eps Graphic file (type eps)
- <image/not_found.eps>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
+ <image/not_found.eps> [9]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
  (c:/tex/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
-File: image/kaiseki_rei.eps Graphic file (type eps)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
 
-<image/kaiseki_rei.eps>
-Overfull \hbox (22.65987pt too wide) in paragraph at lines 91--93
+Overfull \hbox (14.68648pt too wide) in paragraph at lines 85--111
  [] 
  []
 
-[9] [10] [11] [12] [13] [14]) (./4.tex [15]
 
-LaTeX Warning: Reference `take_flow' on page 16 undefined on input line 49.
+Overfull \hbox (96.74147pt too wide) in paragraph at lines 81--141
+[][] 
+ []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10]
 File: image/not_found.eps Graphic file (type eps)
-<image/not_found.eps> [16]) (./5.tex
-File: image/wrong_write.eps Graphic file (type eps)
- <image/wrong_write.eps> [17] [18])
-(./6.tex
-Overfull \hbox (77.80933pt too wide) in paragraph at lines 23--24
+ <image/not_found.eps> [11]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] [13] [14]
+Overfull \hbox (77.80933pt too wide) in paragraph at lines 277--278
 []\JY1/mc/m/n/12 採点に関する事柄を記述する要素 ． 子要素に \OT1/cmr/m/n/12 fun
 c-tion,correct,score,weight,point
  []
 
-[19]
+[15]) (./4.tex [16]
 File: image/not_found.eps Graphic file (type eps)
- <image/not_found.eps> [20]) (./7.tex [21]) (./conclusion.tex)
-(./thanks.tex) [22] (./thesis.bbl) [23] (./thesis.aux)
+ <image/not_found.eps> [17] [18]) (./5.tex
+File: image/wrong_write.eps Graphic file (type eps)
 
-LaTeX Warning: There were undefined references.
+<image/wrong_write.eps> [19] [20]
+File: image/hikaku.eps Graphic file (type eps)
+ <image/hikaku.eps> [21]
+File: image/not_found.eps Graphic file (type eps)
 
- ) 
+<image/not_found.eps> [22]) (./6.tex
+File: image/not_found.eps Graphic file (type eps)
+ <image/not_found.eps>
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 23--24
+ [] 
+ []
+
+File: image/not_found.eps Graphic file (type eps)
+<image/not_found.eps>
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 30--31
+ [] 
+ []
+
+
+Overfull \hbox (56.33214pt too wide) in paragraph at lines 20--36
+[][] 
+ []
+
+File: image/not_found.eps Graphic file (type eps)
+<image/not_found.eps>
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 42--43
+ [] 
+ []
+
+File: image/not_found.eps Graphic file (type eps)
+<image/not_found.eps>
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 49--50
+ [] 
+ []
+
+
+Overfull \hbox (56.33214pt too wide) in paragraph at lines 39--55
+[][] 
+ []
+
+[23] [24]
+File: image/not_found.eps Graphic file (type eps)
+ <image/not_found.eps>
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 83--84
+ [] 
+ []
+
+File: image/not_found.eps Graphic file (type eps)
+<image/not_found.eps>
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 90--91
+ [] 
+ []
+
+
+Overfull \hbox (56.33214pt too wide) in paragraph at lines 80--96
+[][] 
+ []
+
+File: image/not_found.eps Graphic file (type eps)
+<image/not_found.eps>
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 102--103
+ [] 
+ []
+
+File: image/not_found.eps Graphic file (type eps)
+<image/not_found.eps>
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 109--110
+ [] 
+ []
+
+
+Overfull \hbox (56.33214pt too wide) in paragraph at lines 99--115
+[][] 
+ []
+
+[25]
+File: image/not_found.eps Graphic file (type eps)
+ <image/not_found.eps> [26]) (./7.tex
+File: image/not_found.eps Graphic file (type eps)
+ <image/not_found.eps>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28] [29]
+File: image/not_found.eps Graphic file (type eps)
+ <image/not_found.eps>
+Overfull \hbox (22.66946pt too wide) in paragraph at lines 116--117
+ [] 
+ []
+
+[30] [31]) (./conclusion.tex [32]) (./thanks.tex) [33] (./thesis.bbl) [34]
+(./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4537 strings out of 494370
- 63664 string characters out of 3170710
- 129833 words of memory out of 1500000
- 7787 multiletter control sequences out of 15000+200000
+ 4562 strings out of 494370
+ 63956 string characters out of 3170710
+ 133680 words of memory out of 1500000
+ 7812 multiletter control sequences out of 15000+200000
  17346 words of font info for 71 fonts, out of 2000000 for 2000
  678 hyphenation exceptions out of 8191
- 38i,7n,28p,280b,417s stack positions out of 3000i,500n,5000p,500000b,5000s
+ 38i,15n,28p,280b,645s stack positions out of 3000i,500n,5000p,500000b,5000s
 
-Output written on thesis.dvi (26 pages, 65176 bytes).
+Output written on thesis.dvi (37 pages, 104432 bytes).

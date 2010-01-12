@@ -1,55 +1,139 @@
 \section{実装}
+本章では実装した穴埋め問題を用いた学習システムのプロトタイプについて述べる．
 \subsection{問題の自動生成}
-構文解析はANTLRを用いて作成した．
-ANTLRを用いた理由は優秀なベンチマークがあり，デバッグ環境も充実していたからである．
-また，問題作成ルールや問題作成意図の解析機構，問題生成機構はJAVAを用いて実装されている．
+\label{sec:ji_sei}
+問題の自動生成機能について，まず構文解析はANTLRを用いて作成した．
+ANTLRを用いた理由は任意の構文木を生成することが可能で，開発を行うための優秀なベンチマークがあり，デバッグ環境も充実していたからである．
+開発言語には様々なOS上での利用を考えJava\cite{c:java}を用いた．
+問題作成ルールや問題作成意図の解析機構，問題生成機構はJavaを用いて実装されている．
+また，問題データベースにはPostgreSQL\cite{c:postgre}を用いた．
 
+続いて，問題の自動生成機能の動作例を示す．
+まず，図\ref{fig:updata}に示すソースコード選択画面から問題作成に用いるソースコードを選択し，
+続いて図\ref{fig:mon_ito}の問題作成意図選択画面でどんな問題を作りたいか選択する．
+ここで複数の問題意図を選択することもでき，問題作成意図ごとに問題候補が作成される．
+その後，図\ref{fig:choise}の画面が提示され問題候補の中から実際にデータベースに登録する問題を選択し，
+問題文や制限時間などの情報を登録する．情報の登録は図\ref{fig:add}の画面で行う．
+問題に情報を登録後に送信ボタンを押すとデータベースに選択された問題の情報が登録される．
 
-
-テスト記述
+\begin{figure}[h]
+\begin{tabular}{cc}
+\begin{minipage}{0.55\hsize}
 \begin{center}
-\begin{description}
-\item[{\bf program\_set}] 
-問題のグループを持つ要素で，問題グループを識別するid属性を持つ．子要素には複数のitem要素を含む．
-\item[{\bf item}]
-問題候補のルート要素であり，固有の識別子であるid属性と問題の形式を表すtype属性をもつ．item1つが問題１問に相当する．子要素にquestion要素，response要素，hints要素，explanation要素，evaluate要素をもつ．
-\item[{\bf question要素}]
-問題の内容を記述する要素で，穴が開けられたソースコードはここに記述される．
-\item[{\bf response要素}]
-提示の際に解答の候補として記述され，穴埋め問題の解答欄の数に比例する．
-\item[{\bf hints要素}]
-問題に対するヒントが記述されている．
-\item[{\bf evaluate要素}]
-採点に関する事柄を記述する要素．子要素にfunction,correct,score,weight,pointを持つ．
-\item[{\bf correct要素}]
-正解となる文字列を記述する．この要素と解答を比較し正解判定を行う．
-\item[{\bf point要素}]
-この問題を正解すると加算される点数を記述する．
-\item[{\bf explanation要素}]
-採点後に表示される文字列を記述する．
-\end{description}
+\includegraphics[width=8cm,height=7cm]{image/not_found.eps}
+\caption{ソースコード選択画面}
+\label{fig:updata}
 \end{center}
+\end{minipage}
+\begin{minipage}{0.55\hsize}
+\begin{center}
+\includegraphics[width=8cm,height=7cm]{image/not_found.eps}
+\caption{問題作成意図選択画面}
+\label{fig:mon_ito}
+\end{center}
+\end{minipage}
+\end{tabular}
+\end{figure}
 
-\subsection{出題の自動制御}
-すべてJAVAを用いて実装されている．
+\begin{figure}[h]
+\begin{tabular}{cc}
+\begin{minipage}{0.55\hsize}
+\begin{center}
+\includegraphics[width=8cm,height=7cm]{image/not_found.eps}
+\caption{問題候補選択画面}
+\label{fig:choise}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.55\hsize}
+\begin{center}
+\includegraphics[width=8cm,height=7cm]{image/not_found.eps}
+\caption{問題情報登録画面}
+\label{fig:add}
+\end{center}
+\end{minipage}
+\end{tabular}
+\end{figure}
 
-\subsection{自動採点}
-すべてJAVAを用いて実装した．
+\subsection{出題と採点}
+出題・採点機能はJava\cite{c:java}を用いて実装を行った．学習者のPC上で動作するプログラムで，
+問題はJDBC\cite{c:jdbc}を用いてサーバ上にある問題データベースより問題を取得する．
+また，同様に学習ログをデータベースに書き込む機能も持つ．
+
+続いて，\ref{sec:ji_sei}節同様に出題・採点機能の動作説明を行う．
+まず図\ref{fig:cource}に示す画面から，学習を行う内容を選択し，学習を開始させる．
+ここで選択された内容に従って問題が出題され，この学習内容は事前に教材作成者によって決定されているとする．
+問題の出題は図\ref{fig:take_exam}のような形で出題される．左側に穴入りの問題文が提示され
+左側に回答欄と採点ボタンが示される．さらに問題ごとに制限時間を設けており，指定時間以上経過すると強制的に
+回答が終了されるようにした．
+
+採点ボタンを押すと採点が行われ図\ref{fig:judge}の画面が提示される．問題同様右側に問題文が表示され，
+画面の左側には学習者が入力した回答と模範解答が表示され，間違えたときに答えとの比較が出来るようにしている．
+また，教材作成者からの解説も表示できるようになっている．
+そして，この画面上の次へボタンを押すと次の問題が表示されるようになっており，出題画面と採点画面を交互に
+繰り返す形で学習が進むようになっている．
+
+最後に，問題作成者が指定した問題数解くと図\ref{fig:end_of_learn}で示す画面が提示され，
+単元の終了になる．終了画面では，その単元での正解数や正解率が確認できるようになっており，
+テストの出来栄えを自分でも確認・評価できるようにしている．
+
+\begin{figure}[h]
+\begin{tabular}{cc}
+\begin{minipage}{0.55\hsize}
+\begin{center}
+\includegraphics[width=8cm,height=8cm]{image/not_found.eps}
+\caption{学習コース選択画面}
+\label{fig:cource}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.55\hsize}
+\begin{center}
+\includegraphics[width=8cm,height=8cm]{image/not_found.eps}
+\caption{出題画面}
+\label{fig:take_exam}
+\end{center}
+\end{minipage}
+\end{tabular}
+\end{figure}
+
+\begin{figure}[h]
+\begin{tabular}{cc}
+\begin{minipage}{0.55\hsize}
+\begin{center}
+\includegraphics[width=8cm,height=8cm]{image/not_found.eps}
+\caption{採点画面}
+\label{fig:judge}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.55\hsize}
+\begin{center}
+\includegraphics[width=8cm,height=8cm]{image/not_found.eps}
+\caption{終了画面画面}
+\label{fig:end_of_learn}
+\end{center}
+\end{minipage}
+\end{tabular}
+\end{figure}
+
 
 \subsection{システムの全体像}
-自動生成機構で問題作成者が問題を作成し，問題データベースに登録する．
-問題データベースから学習者に応じて出題機構が問題を選択し出題する．
-学習者からの回答と問題からプログラムを作成し構文解析にかける．
-解答のソースを構文解析したものと比較を行い正誤判定を行う．
+本研究で実現した穴埋め問題を用いた学習システムの全体像を図\ref{fig:systemall}に示す．
+提案システムは大きく分けて穴埋め問題の自動生成部と出題・採点部の2つに大きく分かれている．
+穴埋め問題の自動生成部は構文解析を行う部分と問題ルールを決定する部分，問題生成する部分に分かれている．
+出題・採点部は出題制御を行い問題を出題する部分と採点を行う部分に分かれている．
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=7cm,height=5cm]{image/not_found.eps}
-\vspace{-2mm}
+\includegraphics[width=10cm,height=8cm]{image/not_found.eps}
 \caption{システムの流れ}
 \label{fig:systemall}
 \end{center}
-\vspace{-5mm}
 \end{figure}
 
 \newpage
+
+%%%%%%%%%%%%%%%%%%
+%自動生成機能で問題作成者が問題を作成し，問題データベースに登録する．
+%問題データベースから学習者に応じて出題機構が問題を選択し出題する．
+%学習者からの回答と問題からプログラムを作成し構文解析にかける．
+%解答のソースを構文解析したものと比較を行い正誤判定を行う．
+%その正誤判定の結果により次の問題のレベルを変化させ，出題を行う．
