@@ -1,4 +1,4 @@
-This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  15 JAN 2010 13:04
+This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  18 JAN 2010 12:32
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
@@ -392,18 +392,23 @@ File: image/wrong_write.eps Graphic file (type eps)
 <image/wrong_write.eps> [19] [20]
 File: image/hikaku.eps Graphic file (type eps)
  <image/hikaku.eps> [21]
-File: image/not_found.eps Graphic file (type eps)
+File: image/answer_flow.eps Graphic file (type eps)
 
-<image/not_found.eps> [22]) (./6.tex
-File: image/not_found.eps Graphic file (type eps)
- <image/not_found.eps>
-Overfull \hbox (5.34666pt too wide) in paragraph at lines 23--24
+<image/answer_flow.eps>
+Overfull \hbox (22.6535pt too wide) in paragraph at lines 93--94
  [] 
  []
 
-File: image/not_found.eps Graphic file (type eps)
-<image/not_found.eps>
-Overfull \hbox (5.34666pt too wide) in paragraph at lines 30--31
+[22]) (./6.tex
+File: image/make_top.eps Graphic file (type eps)
+ <image/make_top.eps>
+Overfull \hbox (5.3477pt too wide) in paragraph at lines 23--24
+ [] 
+ []
+
+File: image/make_ito.eps Graphic file (type eps)
+<image/make_ito.eps>
+Overfull \hbox (5.3477pt too wide) in paragraph at lines 30--31
  [] 
  []
 
@@ -412,15 +417,15 @@ Overfull \hbox (56.33214pt too wide) in paragraph at lines 20--36
 [][] 
  []
 
-File: image/not_found.eps Graphic file (type eps)
-<image/not_found.eps>
-Overfull \hbox (5.34666pt too wide) in paragraph at lines 42--43
+File: image/make_choice.eps Graphic file (type eps)
+<image/make_choice.eps>
+Overfull \hbox (5.3477pt too wide) in paragraph at lines 42--43
  [] 
  []
 
-File: image/not_found.eps Graphic file (type eps)
-<image/not_found.eps>
-Overfull \hbox (5.34666pt too wide) in paragraph at lines 49--50
+File: image/make_input.eps Graphic file (type eps)
+<image/make_input.eps>
+Overfull \hbox (5.3477pt too wide) in paragraph at lines 49--50
  [] 
  []
 
@@ -465,10 +470,10 @@ Overfull \hbox (56.33214pt too wide) in paragraph at lines 99--115
  []
 
 [25]
-File: image/not_found.eps Graphic file (type eps)
- <image/not_found.eps> [26]) (./7.tex
-File: image/not_found.eps Graphic file (type eps)
- <image/not_found.eps>
+File: image/system_all.eps Graphic file (type eps)
+ <image/system_all.eps> [26]) (./7.tex
+File: image/experimentation_flow.eps Graphic file (type eps)
+ <image/experimentation_flow.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -477,21 +482,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [28] [29]
-File: image/not_found.eps Graphic file (type eps)
- <image/not_found.eps>
-Overfull \hbox (22.66946pt too wide) in paragraph at lines 116--117
+File: image/result.eps Graphic file (type eps)
+ <image/result.eps>
+Overfull \hbox (108.01611pt too wide) in paragraph at lines 116--117
  [] 
  []
 
 [30] [31]) (./conclusion.tex [32]) (./thanks.tex) [33] (./thesis.bbl) [34]
 (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 4576 strings out of 494370
- 64192 string characters out of 3170710
- 133680 words of memory out of 1500000
- 7819 multiletter control sequences out of 15000+200000
+ 4590 strings out of 494370
+ 64439 string characters out of 3170710
+ 133669 words of memory out of 1500000
+ 7826 multiletter control sequences out of 15000+200000
  17346 words of font info for 71 fonts, out of 2000000 for 2000
  678 hyphenation exceptions out of 8191
  38i,15n,28p,280b,645s stack positions out of 3000i,500n,5000p,500000b,5000s
 
-Output written on thesis.dvi (37 pages, 104440 bytes).
+Output written on thesis.dvi (37 pages, 104432 bytes).
