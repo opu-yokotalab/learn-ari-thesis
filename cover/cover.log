@@ -1,0 +1,147 @@
+This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  25 JAN 2010 14:35
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**cover.tex
+(./cover.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2009/09/24> patch level 0)
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, ukenglish, ba
+sque, bulgarian, coptic, welsh, czech, slovak, german, ngerman, danish, esperan
+to, spanish, catalan, galician, estonian, farsi, finnish, french, irish, greek,
+ monogreek, ancientgreek, croatian, hungarian, interlingua, ibycus, bahasa, ice
+landic, italian, latin, mongolian, dutch, norsk, polish, portuguese, pinyin, ro
+manian, russian, slovenian, samin, uppersorbian, serbian, swedish, turkish, ukr
+ainian, dumylang, nohyphenation, loaded.
+(c:/tex/share/texmf/tex/platex/base/jarticle.cls
+Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
+\c@@paper=\count81
+(c:/tex/share/texmf/tex/platex/base/jsize12.clo
+File: jsize12.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 601.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count90
+) (./cover.sty
+Style for Thesis Cover v12.3 <2001/01/15>
+\X=\dimen121
+\Y=\dimen122
+\XM=\dimen123
+\YM=\dimen124
+\XA=\dimen125
+\YA=\dimen126
+\Xa=\dimen127
+\Xb=\dimen128
+\Xc=\dimen129
+\Xd=\dimen130
+\Xe=\dimen131
+\Xf=\dimen132
+\Xg=\dimen133
+\Xh=\dimen134
+\XI=\dimen135
+\Xj=\dimen136
+\Xk=\dimen137
+\Xl=\dimen138
+\Xll=\dimen139
+\Xm=\dimen140
+\Xmm=\dimen141
+\Xn=\dimen142
+\Xoo=\dimen143
+\Xo=\dimen144
+\Xp=\dimen145
+\Xq=\dimen146
+\Xr=\dimen147
+\Xs=\dimen148
+\Xt=\dimen149
+\Xu=\dimen150
+\Ya=\dimen151
+\Yb=\dimen152
+\Yc=\dimen153
+\Yd=\dimen154
+\Yea=\dimen155
+\Yeb=\dimen156
+\Ye=\dimen157
+\Yf=\dimen158
+\Yg=\dimen159
+\Yh=\dimen160
+\Yi=\dimen161
+\Yj=\dimen162
+\Yk=\dimen163
+\Yl=\dimen164
+\Ym=\dimen165
+\Yn=\dimen166
+\Yo=\dimen167
+\Yp=\dimen168
+\Yq=\dimen169
+\Yqa=\dimen170
+\Yqb=\dimen171
+\Yr=\dimen172
+\Ys=\dimen173
+\Yt=\dimen174
+\Yu=\dimen175
+\Yv=\dimen176
+\Yw=\dimen177
+\Yx=\dimen178
+\Yy=\dimen179
+\Yz=\dimen180
+\Yaa=\dimen181
+\dummybox=\box41
+\htbackskip=\dimen182
+\dpbackskip=\dimen183
+\rulelength=\dimen184
+\”N=\count91
+\ŒŽ=\count92
+\“ú=\count93
+) (./cover.aux)
+\openout1 = `cover.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+\”N“x=\count94
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
+ [1
+
+] (./cover.aux) ) 
+Here is how much of TeX's memory you used:
+ 380 strings out of 494370
+ 3396 string characters out of 3170710
+ 57309 words of memory out of 1500000
+ 3813 multiletter control sequences out of 15000+200000
+ 11635 words of font info for 47 fonts, out of 2000000 for 2000
+ 678 hyphenation exceptions out of 8191
+ 22i,9n,27p,132b,331s stack positions out of 3000i,500n,5000p,500000b,5000s
+
+Output written on cover.dvi (1 page, 1536 bytes).

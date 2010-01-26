@@ -1,0 +1,162 @@
+This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  26 JAN 2010 16:48
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**abstract.tex
+(./abstract.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2009/09/24> patch level 0)
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, ukenglish, ba
+sque, bulgarian, coptic, welsh, czech, slovak, german, ngerman, danish, esperan
+to, spanish, catalan, galician, estonian, farsi, finnish, french, irish, greek,
+ monogreek, ancientgreek, croatian, hungarian, interlingua, ibycus, bahasa, ice
+landic, italian, latin, mongolian, dutch, norsk, polish, portuguese, pinyin, ro
+manian, russian, slovenian, samin, uppersorbian, serbian, swedish, turkish, ukr
+ainian, dumylang, nohyphenation, loaded.
+(c:/tex/share/texmf/tex/platex/base/jarticle.cls
+Document Class: jarticle 2006/06/27 v1.6 Standard pLaTeX class
+\c@@paper=\count81
+(c:/tex/share/texmf/tex/platex/base/jsize10.clo
+File: jsize10.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 601.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count90
+) (./abstract.sty
+Style for Thesis Abstract v12.3 <2001/01/15>
+\X=\dimen121
+\Y=\dimen122
+\Xa=\dimen123
+\Xb=\dimen124
+\Xc=\dimen125
+\Xd=\dimen126
+\Xe=\dimen127
+\Xee=\dimen128
+\Xf=\dimen129
+\Xff=\dimen130
+\Xg=\dimen131
+\Xh=\dimen132
+\XI=\dimen133
+\Xj=\dimen134
+\Xk=\dimen135
+\Xl=\dimen136
+\Xll=\dimen137
+\Xm=\dimen138
+\Xmm=\dimen139
+\Xn=\dimen140
+\Xo=\dimen141
+\Xp=\dimen142
+\Xq=\dimen143
+\Xr=\dimen144
+\Xs=\dimen145
+\Xss=\dimen146
+\Xt=\dimen147
+\Xtt=\dimen148
+\Ya=\dimen149
+\Yb=\dimen150
+\Yc=\dimen151
+\Yd=\dimen152
+\Ye=\dimen153
+\Yf=\dimen154
+\Yg=\dimen155
+\Yh=\dimen156
+\Yi=\dimen157
+\dummybox=\box41
+\htbackskip=\dimen158
+\dpbackskip=\dimen159
+\rulelength=\dimen160
+) (c:/tex/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/tex/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/tex/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/tex/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/tex/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(c:/tex/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+) (./abstract.aux)
+\openout1 = `abstract.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+\parindentorg=\skip43
+ (./opu.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
+File: images/make_flow.eps Graphic file (type eps)
+<images/make_flow.eps>
+File: images/mon_rei.eps Graphic file (type eps)
+ <images/mon_rei.eps> [1
+
+
+]
+File: images/take_flow.eps Graphic file (type eps)
+ <images/take_flow.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 113.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 113.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 113.
+File: images/answer_flow.eps Graphic file (type eps)
+
+<images/answer_flow.eps>
+File: images/system_all.eps Graphic file (type eps)
+ <images/system_all.eps>
+File: images/take_question.eps Graphic file (type eps)
+ <images/take_question.eps>)
+[2] (./abstract.aux) ) 
+Here is how much of TeX's memory you used:
+ 707 strings out of 494370
+ 7729 string characters out of 3170710
+ 65291 words of memory out of 1500000
+ 4103 multiletter control sequences out of 15000+200000
+ 13397 words of font info for 52 fonts, out of 2000000 for 2000
+ 678 hyphenation exceptions out of 8191
+ 25i,6n,22p,185b,394s stack positions out of 3000i,500n,5000p,500000b,5000s
+
+Output written on abstract.dvi (2 pages, 15852 bytes).
