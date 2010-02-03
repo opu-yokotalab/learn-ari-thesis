@@ -1,4 +1,4 @@
-This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  28 JAN 2010 15:55
+This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  1 FEB 2010 18:30
  restricted \write18 enabled.
  %&-line parsing enabled.
 **abstract.tex
@@ -123,6 +123,12 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+
+Overfull \hbox (1.14853pt too wide) in paragraph at lines 17--23
+\OT1/cmr/m/n/10 MAX/C[[]]\JY1/mc/m/n/10 ÅC ì‡ìcÇÁÇÃ \OT1/cmr/m/n/10 JavaDrill[[
+]] \JY1/mc/m/n/10 Ç»Ç«Ç™Ç†ÇÈ ÅD \OT1/cmr/m/n/10 DrilLs-
+ []
+
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
@@ -137,11 +143,9 @@ File: images/mon_rei.eps Graphic file (type eps)
 File: images/take_flow.eps Graphic file (type eps)
  <images/take_flow.eps>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 113.
+(Font)              <7> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 113.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 113.
+(Font)              <5> on input line 114.
 File: images/answer_flow.eps Graphic file (type eps)
 
 <images/answer_flow.eps>
@@ -151,12 +155,12 @@ File: images/take_question.eps Graphic file (type eps)
  <images/take_question.eps>)
 [2] (./abstract.aux) ) 
 Here is how much of TeX's memory you used:
- 707 strings out of 494370
- 7729 string characters out of 3170710
+ 685 strings out of 494370
+ 7484 string characters out of 3170710
  65291 words of memory out of 1500000
- 4103 multiletter control sequences out of 15000+200000
- 13397 words of font info for 52 fonts, out of 2000000 for 2000
+ 4089 multiletter control sequences out of 15000+200000
+ 9647 words of font info for 39 fonts, out of 2000000 for 2000
  678 hyphenation exceptions out of 8191
  25i,6n,22p,185b,394s stack positions out of 3000i,500n,5000p,500000b,5000s
 
-Output written on abstract.dvi (2 pages, 15852 bytes).
+Output written on abstract.dvi (2 pages, 15720 bytes).

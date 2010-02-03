@@ -1,7 +1,7 @@
 \section{序論}
-\vspace{-2mm}
+%\vspace{-2mm}
 多くの情報系の大学や情報系企業の研修では，プログラミング言語の教育のためにC言語の教育を重視している．
-初期段階のC言語学習では，概念の理解も重要であるが，実際にプログラムを作成させることの重要である．
+初期段階のC言語学習では，概念の理解も重要であるが，実際にプログラムを作成させることが重要である．
 しかし，学習者にやみくもにプログラムを作成させても，学習の方向性を持たないままプログラムを作成することが考えられ
 知識の定着や概念の理解のサポートが出来るとは限らない．
 
@@ -13,7 +13,7 @@
 
 \section{関連研究}
 \label{sec:kanren}
-\vspace{-2mm}
+%\vspace{-2mm}
 穴埋め問題を用いた学習システムとしては萩原らの記入式Web試験システムDrilLs-L\cite{c:D-L}，
 玉木らのMAX/C\cite{c:MAX-C}，内田らのJavaDrill\cite{c:sakumon}などがある．
 DrilLs-Lではデータベースに登録された大量の問題を用いて，簡単な出題指定を行うだけでドリル形式の繰り返し学習が行える．
@@ -33,18 +33,18 @@ JavaDrillでは，問題作成者の負荷については軽減されているが，
 今回開発した穴埋め問題を用いた学習システムでは\ref{sec:kanren}章で述べた問題点を解決するために
 「問題の自動生成」，「自動出題」，「自動採点」の3つの機能を持つ．
 
-\vspace{-2mm}
+%\vspace{-2mm}
 \subsection{問題の自動生成}
-\vspace{-2mm}
+%\vspace{-2mm}
 問題作成者の負荷を軽減することと問題作成者の考え通りの問題が作成出来ることを目指し，
-問題作成者の意図通りに穴埋め問題を自動生成する機能を開発した．問題の自動生成の流れを図\ref{fig:make_flow}に示す．
+問題作成者の意図通りに穴埋め問題を自動生成するシステムを開発した．問題の自動生成の流れを図\ref{fig:make_flow}に示す．
 
-\vspace{-1mm}
+%\vspace{-1mm}
 \begin{figure}[htbp]
 \begin{center}
-\vspace{-2mm}
+%\vspace{-2mm}
 \includegraphics[height=5cm,width=7cm]{images/make_flow.eps}
-\vspace{-7mm}
+\vspace{-5mm}
 \caption{問題生成の流れ}
 \vspace{-6mm}
 \label{fig:make_flow}
@@ -60,22 +60,22 @@ JavaDrillでは，問題作成者の負荷については軽減されているが，
 また，問題生成時に作った構文木も模範解答として用いるため，後に述べる正規フォーマットに変換し，
 XMLの形式で問題データベースに登録しておく．
 
-\vspace{-1mm}
+%\vspace{-1mm}
 \begin{figure}[htbp]
 \begin{center}
 \vspace{-2mm}
 \includegraphics[height=5cm,width=5cm]{images/mon_rei.eps}
-\vspace{-7mm}
+\vspace{-5mm}
 \caption{生成される問題例}
 \vspace{-6mm}
 \label{fig:mon_rei}
 \end{center}
 \end{figure}
 
-\vspace{-2mm}
+%\vspace{-2mm}
 \subsection{自動出題}
-\vspace{-2mm}
-出題では「関係性を用いた出題」，「形成的評価を用いた出題」，「総括的評価を用いた出題」の3つの出題法を組み合わせた出題を行う．
+%\vspace{-2mm}
+出題では「関係性を用いた出題」，「形成的評価を用いた出題」，「総括的評価のための出題」の3つの出題法を組み合わせた出題を行う．
 
 関係性を用いた出題では工学分野の教材が知識を蓄積していくことで学習が進んでいくという傾向があるため，
 学習内容ごとの関連性をもとに，関連した問題ごとに順序をつけ，それに沿って出題を行う．
@@ -88,21 +88,21 @@ XMLの形式で問題データベースに登録しておく．
 問題は分野ごとにレベルの低い問題から出題されていき，1問解くごとに評価を行いレベルの変更を行う．
 規定の問題数を解くと総括的評価が行われ，終了か復習かの判断がされる．
 また，低いレベルで連続で間違えた場合には，強制的に復習をさせるようになっている．
-\vspace{-1mm}
+%\vspace{-1mm}
 \begin{figure}[htbp]
 \begin{center}
-\vspace{-2mm}
+%\vspace{-2mm}
 \includegraphics[height=4.5cm,width=7cm]{images/take_flow.eps}
-\vspace{-7mm}
+\vspace{-5mm}
 \caption{出題の流れ}
 \vspace{-6mm}
 \label{fig:take_flow}
 \end{center}
 \end{figure}
 
-\vspace{-2mm}
+%\vspace{-2mm}
 \subsection{自動採点}
-\vspace{-2mm}
+%\vspace{-2mm}
 穴埋め問題の穴を大きくした場合，採点を行う時にプログラムによっては複数の解答が考えられるものがある．
 その場合，問題作成時に複数の解答を手動で登録してもらっており問題作成者の負荷になっていた．
 また，複数解答が手動で登録されているため，考えうる解答パターンが多くある場合に登録し忘れるといった問題点も考えられる．
@@ -115,31 +115,31 @@ XMLの形式で問題データベースに登録しておく．
 などについて統一のフォーマットを決めておき，そのフォーマットに従い採点時に変換することでより柔軟な採点を行う．
 また，構文木同士の比較では構文木を比較することにより，構造的は差異を見つけだすことが出来る．
 採点の流れを図\ref{fig:answer_flow}に示す．
-\vspace{-1mm}
+%\vspace{-1mm}
 \begin{figure}[htbp]
 \begin{center}
 \vspace{-2mm}
 \includegraphics[height=4.5cm,width=7cm]{images/answer_flow.eps}
-\vspace{-7mm}
+\vspace{-5mm}
 \caption{採点の流れ}
 \vspace{-6mm}
 \label{fig:answer_flow}
 \end{center}
 \end{figure}
 
-\vspace{-2mm}
+%\vspace{-2mm}
 \subsection{システム全体像}
-\vspace{-2mm}
+%\vspace{-2mm}
 図\ref{fig:system_all}にC言語穴埋め問題を用いた学習システムの全体像を示す．
 本システムは大きく分けて，問題の自動生成部と出題・採点部に分かれている．
 問題の自動生成部で作った問題は問題データベースに蓄積され，
 出題・採点部は問題データベースから問題を呼び出すことで出題を行う．
-\vspace{-1mm}
+%\vspace{-1mm}
 \begin{figure}[htbp]
 \begin{center}
 \vspace{-2mm}
 \includegraphics[height=4.5cm,width=7cm]{images/system_all.eps}
-\vspace{-7mm}
+\vspace{-5mm}
 \caption{システムの全体像}
 \vspace{-6mm}
 \label{fig:system_all}
@@ -152,27 +152,27 @@ XMLの形式で問題データベースに登録しておく．
 \ref{sec:system}章で述べた提案内容について，問題の自動生成機能や自動出題機能の実装を行った．
 各機能は様々なOS上で動かすことを想定して，Javaを用いて実装した．さらに問題データベースはPostgreSQLを用いた．
 自動出題機能の動作例を図\ref{fig:take_question}に示す．
-\vspace{-1mm}
+%\vspace{-1mm}
 \begin{figure}[htbp]
 \begin{center}
 \vspace{-2mm}
 \includegraphics[height=5cm,width=7cm]{images/take_question.eps}
-\vspace{-7mm}
+\vspace{-5mm}
 \caption{動作例}
 \vspace{-6mm}
 \label{fig:take_question}
 \end{center}
 \end{figure}
 
-\vspace{-4mm}
-\section{結論と今後の課題}
 \vspace{-2mm}
+\section{結論と今後の課題}
+%\vspace{-2mm}
 本研究では，穴埋め問題を用いたドリル形式で出題・採点を行う学習システムの提案と実装を行った．
 さらに，問題作成の負荷を軽減するための問題の自動生成機能の開発も行った．
 今後の課題としては，システムの有用性の評価を行うために評価実験を行うことなどが挙げられる．
-\vspace{-1mm}
+%\vspace{-1mm}
 \begin{thebibliography}{10}
-\vspace{-2mm}
+%\vspace{-2mm}
 \bibitem{c:D-L}
 萩原秀和，富永浩之，松原行宏，山崎敏範，
 ''ドリル練習に基づくWeb型試験システム-情報基礎科目への応用と運用試験-，''
