@@ -1,4 +1,4 @@
-This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  3 FEB 2010 17:00
+This is pTeX, Version 3.1415926-p3.1.11 (sjis) (Web2C 2009) (format=platex 2009.9.29)  5 FEB 2010 18:17
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
@@ -419,6 +419,9 @@ Overfull \hbox (56.33214pt too wide) in paragraph at lines 21--37
 [][] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: image/make_choice.eps Graphic file (type eps)
 <image/make_choice.eps>
 Overfull \hbox (5.3477pt too wide) in paragraph at lines 43--44
@@ -435,6 +438,9 @@ Overfull \hbox (5.3477pt too wide) in paragraph at lines 50--51
 Overfull \hbox (56.33214pt too wide) in paragraph at lines 40--56
 [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27] [28]
 File: image/startpage.eps Graphic file (type eps)
@@ -471,6 +477,9 @@ Overfull \hbox (56.33214pt too wide) in paragraph at lines 101--117
 [][] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [29]
 File: image/system_all.eps Graphic file (type eps)
  <image/system_all.eps> [30]) (./7.tex
@@ -479,7 +488,7 @@ File: image/experimentation_flow.eps Graphic file (type eps)
 [31] [32] [33]
 File: image/result.eps Graphic file (type eps)
  <image/result.eps>
-Overfull \hbox (51.11093pt too wide) in paragraph at lines 137--139
+Overfull \hbox (51.11093pt too wide) in paragraph at lines 138--140
  [] 
  []
 
@@ -494,4 +503,4 @@ Here is how much of TeX's memory you used:
  678 hyphenation exceptions out of 8191
  38i,15n,28p,280b,645s stack positions out of 3000i,500n,5000p,500000b,5000s
 
-Output written on thesis.dvi (43 pages, 119880 bytes).
+Output written on thesis.dvi (43 pages, 119928 bytes).
